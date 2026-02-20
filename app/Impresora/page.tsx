@@ -25,6 +25,7 @@ const productos = [
     descripcion: "Impresora shining 3D 1.0",
     imagen: "/Productos/impresora-3d.jpg",
   },
+  
 ];
 
 export default function Impresora() {
