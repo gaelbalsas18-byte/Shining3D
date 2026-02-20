@@ -16,7 +16,7 @@ const productos = [
     id: 2,
     nombre: "Escáner Aoralscan Elite",
     descripcion: "Mayor velocidad y tecnología avanzada.",
-    imagen: "/productos/escaner.jpg",
+    imagen: "/Productos/escaner.jpg",
   },
 
   {
