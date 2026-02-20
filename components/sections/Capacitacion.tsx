@@ -145,16 +145,17 @@ export default function Capacitacion() {
             </div>
             <div>
               <motion.h3 
-              initial={{ opacity: 0, y: 80}}
-              animate={{ opacity: 1, y:  0}}
-              transition={{ duration: 1.3}}
+              initial={{ opacity: 0, y: 60 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
               className="text-3xl md:text-4xl font-bold text-blue-700 mb-6">
                 Formación Especializada
               </motion.h3>
               <motion.p 
-              initial={{ opacity: 0, y: 80}}
+              initial={{ opacity: 0, y: 60}}
               animate={{ opacity: 1, y:  0}}
-              transition={{ duration: 1.3}}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
               className="text-black leading-relaxed">
                  Ofrecemos programas de capacitación diseñados para profesionales
                  que buscan dominar el uso de tecnología avanzada en escaneo 3D y
