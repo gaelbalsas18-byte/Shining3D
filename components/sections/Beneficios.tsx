@@ -128,14 +128,14 @@ export default function Beneficios() {
             <motion.h3
             initial={{ opacity: 0, y: 80 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1 }} 
+            transition={{ duration: 0.8 }} 
             className="text-2xl font-semibold mb-4 text-blue-700">
               Precisión Digital Avanzada.
             </motion.h3>
             <motion.p 
             initial={{ opacity: 0, y: 80}}
             animate={{ opacity: 1, y: 0}}
-            transition={{ duration: 1}}
+            transition={{ duration: 0.8}}
             className="text-black">
               Los escáneres intraorales de Shining 3D capturan imágenes tridimensionales con alto nivel de detalle, 
               permitiendo diagnósticos más precisos y una mejor planificación de tratamientos. 
@@ -148,14 +148,14 @@ export default function Beneficios() {
             <motion.h3 
             initial={{ opacity: 0, y: 80 }}
             animate={{ opacity: 1, y: 0  }}
-            transition={{ duration: 1    }}
+            transition={{ duration: 0.8  }}
             className="text-2xl font-semibold mb-4 text-blue-700">
               Trabajo Más Eficiente.
             </motion.h3>
             <motion.p 
             initial={{ opacity: 0, y: 80 }}
             animate={{ opacity: 1, y: 0  }}
-            transition={{ duration: 1    }}
+            transition={{ duration: 0.8  }}
             className="text-black">
               La digitalización del escaneo elimina la necesidad de impresiones tradicionales, 
               reduciendo tiempos clínicos y optimizando la comunicación con el laboratorio. Los archivos se envían de forma inmediata, 
@@ -167,14 +167,14 @@ export default function Beneficios() {
             <motion.h3
             initial={{ opacity: 0, y: 80}}
             animate={{ opacity: 1, y:  0}}
-            transition={{ duration: 1   }}
+            transition={{ duration:  0.8}}
             className="text-2xl font-semibold mb-4 text-blue-700">
               Experiencia Moderna.
             </motion.h3>
             <motion.p 
             initial={{ opacity: 0, y: 80}}
             animate={{ opacity: 1, y:  0}}
-            transition={{ duration:    1}}
+            transition={{ duration:  0.8}}
             className="text-black">
               Al sustituir los moldes convencionales por tecnología digital, 
               el procedimiento se vuelve más limpio, rápido y cómodo. Esto no solo mejora la experiencia del paciente en consulta, 
