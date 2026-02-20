@@ -12,9 +12,9 @@ export default function Beneficios() {
       <motion.img
         src="/1.png"
         alt=""
-        initial={{ opacity: 0, y: 80}}
-        animate={{ opacity: 1, y:  0}}
-        transition={{ duration: 1}}
+        initial={{ opacity: 0, y: 60 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
         className="
           absolute
           top-0
