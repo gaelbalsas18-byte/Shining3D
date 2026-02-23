@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { Facebook, Instagram } from "lucide-react";
+
 
 export default function Emocional() {
   return (
@@ -72,45 +72,6 @@ export default function Emocional() {
           </div>
         </div>
       </section>
-
-      {/* ===== Pied de pagina ===== */}
-        <footer className="w-full bg-blue-700 py-14">
-          <div className="max-w-6xl mx-auto px-6">
-
-            <div className="flex justify-center items-center gap-8 mb-6">
-              <img
-                src="/Logos/BalsasTrans.png"
-                alt="Balsas"
-                className="h-16 md:h-20 w-auto"
-              />
-
-              <img
-                src="/Logos/Shining3d.png"
-                alt="Shining 3D"
-                className="h-10 md:h-14 w-auto"
-              />
-            </div>
-            <p className="text-white text-lg text-center font-semibold">
-              © 2026 Shining 3D México. Todos los derechos reservados. <br />
-              © 2026 Balsas Dental. Todos los derechos reservados.
-            </p>
-            {/* Redes Balsas*/}
-            <div className="flex justify-center items-center gap-6 mb-6 mt-7">
-              <a
-              href="https://www.facebook.com/BalsasDentalmx"
-              target="_blank"
-              className="text-white hover:text-blue-200 transition">
-                <Facebook size={33}/>
-              </a>
-              <a
-              href="https://www.instagram.com/balsasdentalmx/"
-              target="_blank"
-              className="text-white hover:text-blue-200 transition">
-                <Instagram size={33}/>
-              </a>
-            </div>
-          </div>
-        </footer>
     </>
   );
 }
