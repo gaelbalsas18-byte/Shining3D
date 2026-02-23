@@ -8,24 +8,6 @@ export default function Beneficios() {
       id="Beneficios"
       className="relative w-full bg-white py-16 px-6 overflow-hidden"
     >
-      {/* IMAGEN DECORATIVA DE FONDO IZQUIERDA */}
-      <motion.img
-        src="/1.png"
-        alt=""
-        initial={{ opacity: 0, y: 60 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8 }}
-        className="
-          absolute
-          top-0
-          left-0
-          w-50 md:w-96 lg:w-[720px]
-          pointer-events-none
-          select-none
-          z-0
-        "
-      />
-
       {/* CONTENIDO GENERAL */}
       <div className="relative z-10">
         {/* CONTENEDOR 1 — TITULO */}
