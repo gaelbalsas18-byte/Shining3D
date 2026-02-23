@@ -25,7 +25,7 @@ const productos = [
     descripcion: "Solución profesional de escaneo 3D.",
     imagen: "/Productos/impresora-3d.jpg",
   },
-
+  
 ];
 
 export default function Clinica() {
@@ -85,7 +85,6 @@ export default function Clinica() {
           </div>
         </div>
       </section>
-
             {/*TARJETAS*/}
       <section className="py-16 px-6 md:px-12 lg:px-20 bg-gray-50">
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-10">
@@ -124,7 +123,6 @@ export default function Clinica() {
               </motion.div>
             ))}
           </div>
-
           {/* TARJETA DERECHA */}
           <div className="lg:w-1/3 min-h-[350px]">
             <AnimatePresence mode="wait">
@@ -154,7 +152,7 @@ export default function Clinica() {
 
             {!productoActivo && (
               <div className="h-full flex items-center justify-center text-gray-400 text-center">
-                Selecciona un producto para ver más detalles
+                Selecciona un producto para ver más detalles.
               </div>
             )}
           </div>

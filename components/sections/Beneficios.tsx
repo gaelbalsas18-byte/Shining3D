@@ -57,14 +57,13 @@ export default function Beneficios() {
               />
               <div className="absolute inset-0 bg-black/5" />
               <div className="relative z-10 flex items-center justify-center h-full">
-                <h2 className="text-blue-800 text-3xl md:text-4xl lg:text-5xl font-bold">
+                <h2 className="text-blue-800 text-3xl md:text-4xl lg:text-3xl font-bold">
                   CLÍNICA
                 </h2>
               </div>
             </motion.div>
             </Link>
             
-
             {/* PANEL 2 */}
             <Link href="/Laboratorio">
             <motion.div
@@ -81,7 +80,7 @@ export default function Beneficios() {
               />
               <div className="absolute inset-0 bg-black/5" />
               <div className="relative z-10 flex items-center justify-center h-full">
-                <h2 className="text-blue-800 text-3xl md:text-4xl lg:text-5xl font-bold">
+                <h2 className="text-blue-800 text-3xl md:text-4xl lg:text-3xl font-bold">
                   LABORATORIO
                 </h2>
               </div>
@@ -104,7 +103,7 @@ export default function Beneficios() {
               />
               <div className="absolute inset-0 bg-black/5" />
               <div className="relative z-10 flex items-center justify-center h-full">
-                <h2 className="text-blue-800 text-3xl md:text-4xl lg:text-5xl font-bold">
+                <h2 className="text-blue-800 text-3xl md:text-4xl lg:text-3xl font-bold">
                   IMPRESORAS
                 </h2>
               </div>

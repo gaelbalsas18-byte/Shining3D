@@ -11,6 +11,7 @@ export default function Capacitacion() {
     "/Carrusel/Carrusel2.jpeg",
     "/Carrusel/Carrusel3.png",
   ];
+  
   const personas = [
 
     {
@@ -62,9 +63,8 @@ export default function Capacitacion() {
       telefono: "5581019640",
       imagen: "/Personal/Ana.jpg",
     },
-
   ];
-
+  
   // Carrusel automático
   useEffect(() => {
     if (vista !== "inicio") return;
@@ -123,6 +123,7 @@ export default function Capacitacion() {
           </motion.button>
         </div>
       </div>
+
       {/* CONTENIDO */}
       <div className="max-w-6xl mx-auto mt-20 px-6">
         {vista === "inicio" && (
@@ -143,6 +144,7 @@ export default function Capacitacion() {
                 />
               </motion.div>
             </div>
+
             <div>
               <motion.h3 
               initial={{ opacity: 0, y: 60 }}
@@ -164,6 +166,7 @@ export default function Capacitacion() {
             </div>
           </div>
         )}
+
         {vista !== "inicio" && (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
             {personas
@@ -184,6 +187,7 @@ export default function Capacitacion() {
                       className="object-cover"
                     />
                   </div>
+
                   <div className="p-6">
                       <h3 className="text-xl font-bold mb-2">
                         {persona.nombre}
