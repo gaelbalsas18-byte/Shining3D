@@ -20,7 +20,7 @@ export default function Beneficios() {
         </div>
 
         {/* CONTENEDOR 2 — PANELES */}
-        <div className="w-full max-w-[1400px] mx-auto mb-20">
+        <div className="w-full max-w-[1220px] mx-auto mb-20">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 
             {/* PANEL 1 */}
