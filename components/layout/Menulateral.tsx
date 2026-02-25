@@ -6,7 +6,6 @@ const links = [
   { label: "Productos / Beneficios", href: "#Beneficios", id: "Beneficios" },
   { label: "Experiencia", href: "#Usoreal", id: "Usoreal" },
   { label: "Capacitación", href: "#Capacitacion", id: "Capacitacion" },
-  { label: "Acerca de...", href: "#Emocional", id: "Emocional" },
 ];
 
 export default function MenuLateral() {

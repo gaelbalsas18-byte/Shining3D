@@ -76,7 +76,7 @@ export default function Impresora() {
                 transition={{ duration: 1.3 }}
                 className="text-3x1 sm:text-4x1 md:text-5x1 lg:text-4xl font-semibold md-4"
               >
-                El futuro esta con Shining 3D
+                Equipos con Shining 3D
               </motion.h1>
 
               <motion.p
@@ -118,7 +118,7 @@ export default function Impresora() {
                   className="w-full h-56 object-cover"
                 />
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold mb-4 text-black">
+                  <h3 className="text-xl font-semibold mb-4 text-blue-700 text-center">
                     {producto.nombre}
                   </h3>
                 </div>
@@ -144,13 +144,15 @@ export default function Impresora() {
                     className="w-full h-60 object-cover rounded-xl mb-6"
                   />
 
-                  <h2 className="text-2xl font-bold mb-4 text-black">
+                  <h2 className="text-2xl font-bold mb-4 text-blue-700 text-center">
                     {productoActivo.nombre}
                   </h2>
 
-                  <p className="text-black">
+                 <div className="border-l-4 border-blue-600 pl-4">
+                  <p className="text-gray-700 text-[15px] leading-7 mt-2">
                     {productoActivo.descripcion}
                   </p>
+                </div>
                   
                 </motion.div>
               )}

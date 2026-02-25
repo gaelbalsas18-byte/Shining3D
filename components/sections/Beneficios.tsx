@@ -24,72 +24,81 @@ export default function Beneficios() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 
             {/* PANEL 1 */}
-            <Link href="/Clinica" className="block"> 
-            <motion.div
-              initial={{ opacity: 0, y: 60 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8 }}
-              viewport={{ once: true }}
-              className="relative w-full h-72 md:h-96 lg:h-[420px] xl:h-[500px] rounded-3xl overflow-hidden cursor-pointer hover:scale-105 transition"
+            <Link href="/Clinica" className="block group">
+              <motion.div
+                initial={{ opacity: 0, y: 60 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8 }}
+                viewport={{ once: true }}
+                className="relative w-full h-72 md:h-96 lg:h-[420px] xl:h-[500px] rounded-3xl overflow-hidden cursor-pointer transition-all duration-500 group-hover:scale-105"
             >
-              <img
-                src="/Productos/aoralscan.jpg"
-                alt="Clínica Dental"
-                className="absolute inset-0 w-full h-full object-cover"
-              />
-              <div className="absolute inset-0 bg-black/5" />
-              <div className="relative z-10 flex items-center justify-center h-full">
-                <h2 className="text-blue-800 text-3xl md:text-4xl lg:text-3xl font-bold">
-                  CLÍNICA
-                </h2>
-              </div>
-            </motion.div>
+             <img
+                  src="/Productos/aoralscan.jpg"
+                  alt="Clínica Dental"
+                  className="absolute inset-0 w-full h-full object-cover"
+               />
+
+                {/* Overlay dinámico */}
+                <div className="absolute inset-0 group-hover:bg-black/70 transition-all duration-500" />
+
+                <div className="relative z-10 flex items-center justify-center h-full">
+                  <h2 className="text-transparent group-hover:text-white text-3xl md:text-4xl lg:text-3xl font-bold transition-colors duration-500">
+                    CLÍNICA
+                  </h2>
+                </div>
+              </motion.div>
             </Link>
             
             {/* PANEL 2 */}
-            <Link href="/Laboratorio">
-            <motion.div
-              initial={{ opacity: 0, y: 60 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8 }}
-              viewport={{ once: true }}
-              className="relative w-full h-72 md:h-96 lg:h-[420px] xl:h-[500px] rounded-3xl overflow-hidden cursor-pointer hover:scale-105 transition"
-            >
-              <img
-                src="/Productos/Laboratorio/DS EX H.jpg"
-                alt="Laboratorio"
-                className="absolute inset-0 w-full h-full object-cover"
-              />
-              <div className="absolute inset-0 bg-black/5" />
-              <div className="relative z-10 flex items-center justify-center h-full">
-                <h2 className="text-blue-800 text-3xl md:text-4xl lg:text-3xl font-bold">
-                  LABORATORIO
-                </h2>
-              </div>
-            </motion.div>
+             <Link href="/Laboratorio" className="block group">
+              <motion.div
+                initial={{ opacity: 0, y: 60 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8 }}
+                viewport={{ once: true }}
+                className="relative w-full h-72 md:h-96 lg:h-[420px] xl:h-[500px] rounded-3xl overflow-hidden cursor-pointer transition-all duration-500 group-hover:scale-105"
+              >
+                <img
+                  src="/Productos/Laboratorio/DS EX H.jpg"
+                  alt="Laboratorio"
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
+
+                {/* Overlay dinámico */}
+                <div className="absolute inset-0 group-hover:bg-black/70 transition-all duration-500" />
+
+                <div className="relative z-10 flex items-center justify-center h-full">
+                  <h2 className="text-transparent group-hover:text-white text-3xl md:text-4xl lg:text-3xl font-bold transition-colors duration-500">
+                    LABORATORIO
+                  </h2>
+                </div>
+              </motion.div>
             </Link>
 
             {/* PANEL 3 */}
-            <Link href="/Impresora">
-            <motion.div
-              initial={{ opacity: 0, y: 60 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8 }}
-              viewport={{ once: true }}
-              className="relative w-full h-72 md:h-96 lg:h-[420px] xl:h-[500px] rounded-3xl overflow-hidden cursor-pointer hover:scale-105 transition"
-            >
-              <img
-                src="/Productos/Equipos/Acuafast L4D.png"
-                alt="Impresoras"
-                className="absolute inset-0 w-full h-full object-cover"
-              />
-              <div className="absolute inset-0 bg-black/5" />
-              <div className="relative z-10 flex items-center justify-center h-full">
-                <h2 className="text-blue-800 text-3xl md:text-4xl lg:text-3xl font-bold">
-                  EQUIPOS
-                </h2>
-              </div>
-            </motion.div>
+            <Link href="/Impresora" className="block group">
+              <motion.div
+                initial={{ opacity: 0, y: 60 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8 }}
+                viewport={{ once: true }}
+                className="relative w-full h-72 md:h-96 lg:h-[420px] xl:h-[500px] rounded-3xl overflow-hidden cursor-pointer transition-all duration-500 group-hover:scale-105"
+              >
+                <img
+                  src="/Productos/Equipos/Acuafast L4D.png"
+                  alt="Impresora"
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
+
+                {/* Overlay dinámico */}
+                <div className="absolute inset-0 group-hover:bg-black/70 transition-all duration-500" />
+
+                <div className="relative z-10 flex items-center justify-center h-full">
+                  <h2 className="text-transparent group-hover:text-white text-3xl md:text-4xl lg:text-3xl font-bold transition-colors duration-500">
+                    EQUIPOS
+                  </h2>
+                </div>
+              </motion.div>
             </Link>
           </div>
         </div>
