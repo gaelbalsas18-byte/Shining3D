@@ -22,7 +22,7 @@ const productos = [
     id: 3,
     nombre: "Ds Ex H",
     descripcion: "Escaneo de mordida, Escaneo de la mandíbula superior/inferior, Escaneo de impresión, es un escáner dental 3D con funciones potentes para múltiples aplicaciones, que abarcan escaneos de impresiones, modelos de yeso, articuladores, estribos de implantes, etc. La precisión de escaneo garantiza resultados fiables, satisfaciendo completamente los requisitos de diversas aplicaciones en la industria dental.",
-    imagen: "/Productos/Laboratorio/Ds Ex ProH.jpg",
+    imagen: "/Productos/Laboratorio/DS EX H.jpg",
   },
 
   {
