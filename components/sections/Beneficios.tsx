@@ -56,7 +56,7 @@ export default function Beneficios() {
               className="relative w-full h-72 md:h-96 lg:h-[420px] xl:h-[500px] rounded-3xl overflow-hidden cursor-pointer hover:scale-105 transition"
             >
               <img
-                src="/Productos/escaner.jpg"
+                src="/Productos/Laboratorio/Ds Ex ProH.jpg"
                 alt="Laboratorio"
                 className="absolute inset-0 w-full h-full object-cover"
               />
@@ -79,19 +79,18 @@ export default function Beneficios() {
               className="relative w-full h-72 md:h-96 lg:h-[420px] xl:h-[500px] rounded-3xl overflow-hidden cursor-pointer hover:scale-105 transition"
             >
               <img
-                src="/Productos/impresora-3d.jpg"
+                src="/Productos/Equipos/Acuafast L4D.png"
                 alt="Impresoras"
                 className="absolute inset-0 w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-black/5" />
               <div className="relative z-10 flex items-center justify-center h-full">
                 <h2 className="text-blue-800 text-3xl md:text-4xl lg:text-3xl font-bold">
-                  IMPRESORAS
+                  EQUIPOS
                 </h2>
               </div>
             </motion.div>
             </Link>
-
           </div>
         </div>
 

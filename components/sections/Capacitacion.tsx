@@ -64,12 +64,11 @@ export default function Capacitacion() {
       telefono: "5581019640",
       imagen: "/Personal/Ana.jpg",
     },
+
   ];
-  
   // Carrusel automático
   useEffect(() => {
     if (vista !== "inicio") return;
-
     const interval = setInterval(() => {
       setIndex((prev) => (prev + 1) % images.length);
     }, 4000);
@@ -77,8 +76,7 @@ export default function Capacitacion() {
     return () => clearInterval(interval);
   }, [vista]);
   return (
-    <section id="Capacitacion" className="pb-20 bg-white">
-
+    <section id="Capacitacion" className="min-h-screen flex flex-col bg-white">
       {/* TITULO */}
       <div className="max-w-6xl mx-auto text-center pt-20">
         <h3 className="text-5xl font-semibold text-blue-700 ">
@@ -87,8 +85,8 @@ export default function Capacitacion() {
       </div>
 
       {/* BOTONES */}
-      <div className="max-w-6xl mx-auto mt-12 px-6">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="max-w-7xl mx-auto mt-16 px-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
 
           <motion.button
             onClick={() =>
@@ -96,7 +94,7 @@ export default function Capacitacion() {
             }
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.98 }}
-            className="w-full py-6 bg-white text-blue-700 rounded-2xl text-xl font-semibold hover:bg-blue-600 hover:text-white border border-blue-700"
+            className="w-full py-7 px-15 bg-white text-blue-700 rounded-2xl text-xl font-semibold hover:bg-blue-600 hover:text-white border border-blue-700 "
           >
             CAPACITACIÓN
           </motion.button>
@@ -239,8 +237,9 @@ export default function Capacitacion() {
           </div>
         )}
       </div>
+
       {/* ===== Pied de pagina ===== */}
-        <footer className="w-full bg-blue-700 py-14">
+        <footer className="w-full bg-blue-700 py-14 mt-20">
           <div className="max-w-6xl mx-auto px-6">
 
             <div className="flex justify-center items-center gap-8 mb-6">
@@ -249,7 +248,6 @@ export default function Capacitacion() {
                 alt="Balsas"
                 className="h-16 md:h-20 w-auto"
               />
-
               <img
                 src="/Logos/Shining3d.png"
                 alt="Shining 3D"

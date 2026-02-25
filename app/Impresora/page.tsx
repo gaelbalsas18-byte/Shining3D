@@ -7,25 +7,31 @@ const productos = [
 
   {
     id: 1,
-    nombre: "Impresora shining 3D 1.0",
+    nombre: "Acuafast Cel",
     descripcion: "Impresora shining 3D 1.0",
-    imagen: "/Productos/aoralscan.jpg",
+    imagen: "/Productos/Equipos/Cel.jpg",
   },
 
   {
     id: 2,
-    nombre: "Impresora shining 3D 2.0",
+    nombre: "Acuafast L4D",
     descripcion: "Impresora shining 3D 1.0",
-    imagen: "Productos/escaner.jpg",
+    imagen: "Productos/Equipos/Acuafast L4D.png",
   },
 
   {
     id: 3,
-    nombre: "Impresora shining 3D 3.0",
+    nombre: "Curning",
     descripcion: "Impresora shining 3D 1.0",
-    imagen: "/Productos/impresora-3d.jpg",
+    imagen: "/Productos/Equipos/Curning.jpg",
   },
   
+  {
+    id:4,
+    nombre: "Washing",
+    descripcion: "#",
+    imagen: "/Productos/Equipos/Wash.jpg",
+  },
 ];
 
 export default function Impresora() {

@@ -4,27 +4,34 @@ import { useState } from "react";
 import Image from "next/image";
 
 const productos = [
-
   {
     id: 1,
-    nombre: "Escaner Shining 3D 1.0",
-    descripcion: "Escaner Shining 3D 1.0",
-    imagen: "/Productos/aoralscan.jpg",
+    nombre: "Ds Ex Pro",
+    descripcion: "Escaneo de alta velocidad, Estructura fácil de usar, Aplicaciones versátiles, Soporte para exportación multiformato es un escáner dental 3D multifuncional desarrollado y fabricado de forma independiente por SHINING 3D, especializado en captura de datos para restauración dental, ortodoncia e implantología. Velocidad de escaneo mejorada. Escaneo dinámico y estático de articuladores. Nuevo escaneo todo en uno. Diseño modular",
+    imagen: "/Productos/Laboratorio/Ds Ex Pro.jpeg",
   },
 
   {
     id: 2,
-    nombre: "Escaner Shining 3D 2.0",
-    descripcion: "Escaner Shining 3D 2.0",
-    imagen: "/Productos/escaner.jpg",
+    nombre: "Ds Ex C",
+    descripcion: "Escaneo de alta velocidad, Estructura fácil de usar, Aplicaciones versátiles, Soporte para exportación multiformato es un escáner dental 3D multifuncional desarrollado y fabricado de forma independiente por SHINING 3D, especializado en captura de datos para restauración dental, ortodoncia e implantología. Velocidad de escaneo mejorada. Escaneo dinámico y estático de articuladores. Nuevo escaneo todo en uno. Diseño modular",
+    imagen: "/Productos/Laboratorio/Ds Ex C.jpg",
   },
 
   {
     id: 3,
-    nombre: "Escaner Shining 3D 3.0",
-    descripcion: "Escaner Shining 3D 3.0",
-    imagen: "/Productos/impresora-3d.jpg",
+    nombre: "Ds Ex H",
+    descripcion: "Escaneo de mordida, Escaneo de la mandíbula superior/inferior, Escaneo de impresión, es un escáner dental 3D con funciones potentes para múltiples aplicaciones, que abarcan escaneos de impresiones, modelos de yeso, articuladores, estribos de implantes, etc. La precisión de escaneo garantiza resultados fiables, satisfaciendo completamente los requisitos de diversas aplicaciones en la industria dental.",
+    imagen: "/Productos/Laboratorio/Ds Ex ProH.jpg",
   },
+
+  {
+    id: 4,
+    nombre: "Ds Ex Mix",
+    descripcion: "#",
+    imagen: "#",
+  },
+  
 ];
 
 export default function Laboratorio() {
@@ -86,8 +93,7 @@ export default function Laboratorio() {
       </section>
             {/* TARJETAS + PANEL DERECHO */}
       <section className="py-16 px-6 md:px-12 lg:px-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-10">
-          
+        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-start gap-10">
           {/* GRID ORIGINAL (NO CAMBIADO) */}
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:w-2/3">
             {productos.map((producto, index) => (
@@ -143,9 +149,11 @@ export default function Laboratorio() {
                     {productoActivo.nombre}
                   </h2>
 
-                  <p className="text-black">
+                  <div className="border-l-4 border-blue-600 pl-4">
+                  <p className="text-gray-700 text-[15px] leading-7 mt-2">
                     {productoActivo.descripcion}
                   </p>
+                </div>
                 </motion.div>
               )}
             </AnimatePresence>
