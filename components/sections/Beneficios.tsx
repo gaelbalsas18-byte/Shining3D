@@ -56,7 +56,7 @@ export default function Beneficios() {
               className="relative w-full h-72 md:h-96 lg:h-[420px] xl:h-[500px] rounded-3xl overflow-hidden cursor-pointer hover:scale-105 transition"
             >
               <img
-                src="/Productos/Laboratorio/Ds Ex ProH.jpg"
+                src="/Productos/Laboratorio/DS EX H.jpg"
                 alt="Laboratorio"
                 className="absolute inset-0 w-full h-full object-cover"
               />
