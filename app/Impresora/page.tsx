@@ -30,7 +30,7 @@ const productos = [
     id:4,
     nombre: "Washing",
     descripcion: "#",
-    imagen: "/Productos/Equipos/Wash.jpg",
+    imagen: "/Productos/Equipos/wash.jpg",
   },
 ];
 
