@@ -14,7 +14,6 @@ export default function Capacitacion() {
   ];
 
   const personas = [
-
     {
       id: "1",
       categoria: ["capacitacion", "asesores"],
@@ -72,7 +71,7 @@ export default function Capacitacion() {
       descripcion: "Asesor Comercial",
       correo: "karla.cordoba@balsasdental.com",
       telefono: "55 6802 2536",
-      imagen: "",
+      imagen: "/Personal/Karla.jpg",
     },
 
     {
@@ -82,9 +81,9 @@ export default function Capacitacion() {
       descripcion: "Asesor Comercial",
       correo: "tune.promotor@balsasdental.com",
       telefono: "56 1162 5274",
-      imagen: "",
-    }
-
+      imagen: "/Personal/Yoa.jpg",
+    },
+    
   ];
 
   // Carrusel automático
@@ -198,7 +197,6 @@ export default function Capacitacion() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.6, delay: i * 0.1 }}
                   className="relative rounded-3xl shadow-xl overflow-hidden h-110"
-
                 >
                     <Image
                       src={persona.imagen || "/placeholder.jpg"}
@@ -207,7 +205,7 @@ export default function Capacitacion() {
                       className="object-cover"
                     />
                     {/*Sombra de la imagen*/}
-                    <div className="absolute inset-0 bg-black/10"/>
+                    <div className="absolute inset-0 bg-black/5"/>
                     <div className="relative p-6 text-white mt-52">
                       <h3 className="text-xl font-bold mb-2">
                         {persona.nombre}
