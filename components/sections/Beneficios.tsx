@@ -42,7 +42,7 @@ export default function Beneficios() {
                 <div className="absolute inset-0 group-hover:bg-black/70 transition-all duration-500" />
 
                 <div className="relative z-10 flex items-center justify-center h-full">
-                  <h2 className="text-transparent group-hover:text-white text-3xl md:text-4xl lg:text-3xl font-bold transition-colors duration-500">
+                  <h2 className="text-transparent group-hover:text-blue-700 text-3xl md:text-4xl lg:text-3xl font-bold transition-colors duration-500">
                     CLÍNICA
                   </h2>
                 </div>
@@ -68,7 +68,7 @@ export default function Beneficios() {
                 <div className="absolute inset-0 group-hover:bg-black/70 transition-all duration-500" />
 
                 <div className="relative z-10 flex items-center justify-center h-full">
-                  <h2 className="text-transparent group-hover:text-white text-3xl md:text-4xl lg:text-3xl font-bold transition-colors duration-500">
+                  <h2 className="text-transparent group-hover:text-blue-700 text-3xl md:text-4xl lg:text-3xl font-bold transition-colors duration-500">
                     LABORATORIO
                   </h2>
                 </div>
@@ -94,8 +94,8 @@ export default function Beneficios() {
                 <div className="absolute inset-0 group-hover:bg-black/70 transition-all duration-500" />
 
                 <div className="relative z-10 flex items-center justify-center h-full">
-                  <h2 className="text-transparent group-hover:text-white text-3xl md:text-4xl lg:text-3xl font-bold transition-colors duration-500">
-                    EQUIPOS
+                  <h2 className="text-transparent group-hover:text-blue-700 text-3xl md:text-4xl lg:text-3xl font-bold transition-colors duration-500">
+                    IMPRESIÓN 3D
                   </h2>
                 </div>
               </motion.div>

@@ -12,7 +12,7 @@ export default function Capacitacion() {
     "/Carrusel/Carrusel2.jpeg",
     "/Carrusel/Carrusel3.png",
   ];
-  
+
   const personas = [
 
     {
@@ -22,50 +22,71 @@ export default function Capacitacion() {
       descripcion: "Gerente Comercial",
       correo: "direcciongeneral@balsasdental.com",
       telefono: "5554076025",
-      imagen: "/Personal/Fernando.jpg",
+      imagen: "/Personal/Fer.jpg",
     },
 
     {
       id: "2",
       categoria: ["capacitacion", "mantenimiento", "asesores"],
       nombre: "Dr. Giancarlo Graber",
-      descripcion: "Asesor Comercial, Dentista y Cosultorio Dental",
+      descripcion: "Asesor Comercial",
       correo: "contacto@drtrading.mx",
       telefono: "5549363462",
-      imagen: "/doctor1.jpg",
+      imagen: "/Personal/Giancarlo.jpg",
     },
 
     {
       id: "6",
       categoria: ["mantenimiento", "asesores"],
       nombre: "Humberto Corvera Santillan",
-      descripcion: "Asesor Técnico Dental",
+      descripcion: "Asesor Comercial",
       correo: "humberto@bioden.mx",
       telefono: "5580345711",
-      imagen: "/Personal/humberto.jpg",
+      imagen: "/Personal/Beto.jpg",
     },
 
     {
       id: "7",
       categoria: "asesores",
       nombre: "Alejandro Ubaldo Hernández",
-      descripcion: "Asesor Clinico Dental",
+      descripcion: "Asesor Comercial",
       correo: "alejandro.ubaldo@balsasdental.com",
       telefono: "5510494292",
-      imagen: "/Personal/Alejandro.jpg",
+      imagen: "/Personal/Ale.jpg",
     },
 
     {
       id: "8",
       categoria: "asesores",
       nombre: "Ana Elena Miranda",
-      descripcion: "Asesor Clinico Dental",
+      descripcion: "Asesor Comercial",
       correo: "elena.miranda@balsasdental.com",
       telefono: "5581019640",
-      imagen: "/Personal/Ana.jpg",
+      imagen: "/Personal/Ana E.jpg",
     },
 
+    {
+      id: "9",
+      categoria: "asesores",
+      nombre: "Karla Cordoba",
+      descripcion: "Asesor Comercial",
+      correo: "karla.cordoba@balsasdental.com",
+      telefono: "55 6802 2536",
+      imagen: "",
+    },
+
+    {
+      id: "10",
+      categoria: "asesores",
+      nombre: "Magda Yoatzin Rosas",
+      descripcion: "Asesor Comercial",
+      correo: "tune.promotor@balsasdental.com",
+      telefono: "56 1162 5274",
+      imagen: "",
+    }
+
   ];
+
   // Carrusel automático
   useEffect(() => {
     if (vista !== "inicio") return;
@@ -109,7 +130,7 @@ export default function Capacitacion() {
           >
             MANTENIMIENTO
           </motion.button>
-
+          
           <motion.button
             onClick={() =>
               setVista(vista === "asesores" ? "inicio" : "asesores")
@@ -176,22 +197,22 @@ export default function Capacitacion() {
                   initial={{ opacity: 0, y: 40 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.6, delay: i * 0.1 }}
-                  className="bg-blue-700 text-white rounded-3xl shadow-xl overflow-hidden"
+                  className="relative rounded-3xl shadow-xl overflow-hidden h-110"
+
                 >
-                  <div className="relative w-full h-64">
                     <Image
                       src={persona.imagen || "/placeholder.jpg"}
                       alt={persona.nombre}
                       fill
                       className="object-cover"
                     />
-                  </div>
-
-                  <div className="p-6">
+                    {/*Sombra de la imagen*/}
+                    <div className="absolute inset-0 bg-black/10"/>
+                    <div className="relative p-6 text-white mt-52">
                       <h3 className="text-xl font-bold mb-2">
                         {persona.nombre}
                       </h3>
-                      <p className="text-white/80 mb-4 text-sm">
+                      <p className="mb-4 text-sm">
                         {persona.descripcion}
                       </p>
                       <div className="text-sm space-y-1">
