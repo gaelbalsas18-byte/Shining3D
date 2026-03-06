@@ -40,10 +40,10 @@ export default function Hero () {
           <div className="relative z-10 h-full flex items-center justify-end px-8 lg:px-20">
             <div className="text-white  max-w-xl text-right">
               <motion.h1
-              initial={{ opacity: 0, y: 40}}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1   }}
-              className="text-4xl md:text-5xl font-semibold leading-tight">
+              initial={{ opacity: 0, x: 80}}
+              whileInView={{ opacity: 1, x: 0}}
+              transition={{ duration: 1.2}}
+              className="text-4xl md:text-4xl font-semibold leading-tight">
                 El futuro del escaneo intraoral
               </motion.h1>
               <motion.p

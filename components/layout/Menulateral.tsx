@@ -47,7 +47,7 @@ export default function MenuLateral() {
       onClick={() => setOpen(true)}
       className="fixed left-0 top-1/2 -translate-y-1/2
                  z-30
-                 bg-blue-700 text-white
+                 bg-blue-800 text-white
                  px-3 py-6
                  rounded-r-2xl
                  text-xl font-bold

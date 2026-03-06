@@ -3,6 +3,9 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 import { Facebook, Instagram } from "lucide-react";
+import { generarLinkWhatsApp } from "@/utils/whatsapp";
+import { personas } from "@/data/personas";
+
 
 export default function Capacitacion() {
   const [vista, setVista] = useState("inicio");
@@ -11,79 +14,6 @@ export default function Capacitacion() {
     "/Carrusel/Carrusel1.jpg",
     "/Carrusel/Carrusel2.jpeg",
     "/Carrusel/Carrusel3.png",
-  ];
-
-  const personas = [
-    {
-      id: "1",
-      categoria: ["capacitacion", "asesores"],
-      nombre: "Fernando Santamaría Ríos",
-      descripcion: "Gerente Comercial",
-      correo: "direcciongeneral@balsasdental.com",
-      telefono: "5554076025",
-      imagen: "/Personal/Fer.jpg",
-    },
-
-    {
-      id: "2",
-      categoria: ["capacitacion", "mantenimiento", "asesores"],
-      nombre: "Dr. Giancarlo Graber",
-      descripcion: "Asesor Comercial",
-      correo: "contacto@drtrading.mx",
-      telefono: "5549363462",
-      imagen: "/Personal/Giancarlo.jpg",
-    },
-
-    {
-      id: "6",
-      categoria: ["mantenimiento", "asesores"],
-      nombre: "Humberto Corvera Santillan",
-      descripcion: "Asesor Comercial",
-      correo: "humberto@bioden.mx",
-      telefono: "5580345711",
-      imagen: "/Personal/Beto.jpg",
-    },
-
-    {
-      id: "7",
-      categoria: "asesores",
-      nombre: "Alejandro Ubaldo Hernández",
-      descripcion: "Asesor Comercial",
-      correo: "alejandro.ubaldo@balsasdental.com",
-      telefono: "5510494292",
-      imagen: "/Personal/Ale.jpg",
-    },
-
-    {
-      id: "8",
-      categoria: "asesores",
-      nombre: "Ana Elena Miranda",
-      descripcion: "Asesor Comercial",
-      correo: "elena.miranda@balsasdental.com",
-      telefono: "5581019640",
-      imagen: "/Personal/Ana E.jpg",
-    },
-
-    {
-      id: "9",
-      categoria: "asesores",
-      nombre: "Karla Cordoba",
-      descripcion: "Asesor Comercial",
-      correo: "karla.cordoba@balsasdental.com",
-      telefono: "55 6802 2536",
-      imagen: "/Personal/Karla.jpg",
-    },
-
-    {
-      id: "10",
-      categoria: "asesores",
-      nombre: "Magda Yoatzin Rosas",
-      descripcion: "Asesor Comercial",
-      correo: "tune.promotor@balsasdental.com",
-      telefono: "56 1162 5274",
-      imagen: "/Personal/Yoa.jpg",
-    },
-    
   ];
 
   // Carrusel automático
@@ -205,7 +135,7 @@ export default function Capacitacion() {
                       className="object-cover"
                     />
                     {/*Sombra de la imagen*/}
-                    <div className="absolute inset-0 bg-black/5"/>
+                    <div className="absolute inset-0 "/>
                     <div className="relative p-6 text-white mt-52">
                       <h3 className="text-xl font-bold mb-2">
                         {persona.nombre}
@@ -219,7 +149,11 @@ export default function Capacitacion() {
                       </div>
                       {/* BOTÓN WHATSAPP */}
                       <a
-                        href={`https://wa.me/52${persona.telefono.replace(/\s/g, "")}?text=Hola%20${encodeURIComponent(persona.nombre)},%20me%20interesa%20recibir%20información%20sobre%20${vista}%20en%20Shining%203D`}
+                        href={generarLinkWhatsApp(
+                          persona.telefono,
+                          persona.nombre,
+                          vista
+                        )}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="
@@ -229,8 +163,8 @@ export default function Capacitacion() {
                           items-center
                           justify-center
                           gap-3
-                          bg-green-500
-                          hover:bg-green-600
+                          bg-blue-800
+                          hover:bg-blue-700
                           text-white
                           font-semibold
                           py-3
@@ -257,6 +191,111 @@ export default function Capacitacion() {
         )}
       </div>
 
+      <section className="relative w-full bg-white py-24 px-6 md:px-12 lg:px-20 overflow-hidden">
+
+  <div className="max-w-7xl mx-auto relative z-10">
+
+    {/* TITULO */}
+    <div className="text-center mb-16">
+
+      <motion.h2
+        initial={{ opacity: 0, y: 60 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+        className="text-3xl md:text-4xl font-bold text-gray-900"
+      >
+        Tecnología que transforma tu práctica
+      </motion.h2>
+
+      <motion.p
+        initial={{ opacity: 0, y: 60 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+        className="text-gray-600 mt-5 max-w-2xl mx-auto"
+      >
+        Equipos diseñados para optimizar tu flujo de trabajo clínico,
+        mejorar la precisión y ofrecer una experiencia moderna a tus pacientes.
+      </motion.p>
+
+    </div>
+
+    {/* CARDS */}
+    <div className="grid md:grid-cols-3 gap-10">
+
+      {/* CARD 1 */}
+      <motion.div
+        initial={{ opacity: 0, y: 60 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+        className="bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition text-center"
+      >
+
+        <div className="w-16 h-16 mx-auto flex items-center justify-center bg-blue-600 text-white rounded-2xl text-xl font-bold mb-6 shadow-md">
+          1
+        </div>
+
+        <h3 className="font-semibold text-lg mb-3 text-gray-900">
+          Escaneo Digital
+        </h3>
+
+        <p className="text-gray-600 text-sm leading-relaxed">
+          Captura impresiones digitales con gran precisión y velocidad,
+          eliminando procesos tradicionales incómodos.
+        </p>
+
+      </motion.div>
+
+      {/* CARD 2 DESTACADA */}
+      <motion.div
+        initial={{ opacity: 0, y: 60 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+        className="bg-blue-600 text-white rounded-3xl p-8 shadow-2xl scale-105 text-center"
+      >
+
+        <div className="w-16 h-16 mx-auto flex items-center justify-center bg-white text-blue-600 rounded-2xl text-xl font-bold mb-6 shadow-md">
+          2
+        </div>
+
+        <h3 className="font-semibold text-lg mb-3">
+          Procesamiento Inteligente
+        </h3>
+
+        <p className="text-blue-100 text-sm leading-relaxed">
+          El software analiza los datos y optimiza los modelos digitales
+          para facilitar el diseño y planificación del tratamiento.
+        </p>
+
+      </motion.div>
+
+      {/* CARD 3 */}
+      <motion.div
+        initial={{ opacity: 0, y: 60 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+        className="bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition text-center"
+      >
+
+        <div className="w-16 h-16 mx-auto flex items-center justify-center bg-blue-600 text-white rounded-2xl text-xl font-bold mb-6 shadow-md">
+          3
+        </div>
+
+        <h3 className="font-semibold text-lg mb-3 text-gray-900">
+          Resultados Profesionales
+        </h3>
+
+        <p className="text-gray-600 text-sm leading-relaxed">
+          Obtén resultados consistentes y de alta calidad que mejoran
+          la experiencia del paciente y la eficiencia clínica.
+        </p>
+
+      </motion.div>
+
+    </div>
+
+  </div>
+</section>
+
       {/* ===== Pied de pagina ===== */}
         <footer className="w-full bg-blue-700 py-14 mt-20">
           <div className="max-w-6xl mx-auto px-6">
@@ -270,7 +309,7 @@ export default function Capacitacion() {
               <img
                 src="/Logos/Shining3d.png"
                 alt="Shining 3D"
-                className="h-10 md:h-14 w-auto"
+                className="h-11 md:h-14 w-50 md:w-45"
               />
             </div>
             <p className="text-white text-lg text-center font-semibold">
