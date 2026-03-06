@@ -29,7 +29,7 @@ export default function Capacitacion() {
     <section id="Capacitacion" className="min-h-screen flex flex-col bg-white">
       {/* TITULO */}
       <div className="max-w-6xl mx-auto text-center pt-20">
-        <h3 className="text-5xl font-semibold text-blue-700 ">
+        <h3 className="text-5xl font-semibold text-black">
           NOSOTROS
         </h3>
       </div>
@@ -99,7 +99,7 @@ export default function Capacitacion() {
               initial={{ opacity: 0, y: 60 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
-              className="text-3xl md:text-4xl font-bold text-blue-700 mb-6">
+              className="text-3xl md:text-4xl font-bold text-black mb-6">
                 Formación Especializada
               </motion.h3>
               <motion.p 
@@ -193,108 +193,108 @@ export default function Capacitacion() {
 
       <section className="relative w-full bg-white py-24 px-6 md:px-12 lg:px-20 overflow-hidden">
 
-  <div className="max-w-7xl mx-auto relative z-10">
+            <div className="max-w-7xl mx-auto relative z-10">
 
-    {/* TITULO */}
-    <div className="text-center mb-16">
+              {/* TITULO */}
+              <div className="text-center mb-16">
 
-      <motion.h2
-        initial={{ opacity: 0, y: 60 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8 }}
-        className="text-3xl md:text-4xl font-bold text-gray-900"
-      >
-        Tecnología que transforma tu práctica
-      </motion.h2>
+                <motion.h2
+                  initial={{ opacity: 0, y: 60 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.8 }}
+                  className="text-3xl md:text-4xl font-bold text-gray-900"
+                >
+                  Tecnología que transforma tu práctica
+                </motion.h2>
 
-      <motion.p
-        initial={{ opacity: 0, y: 60 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8 }}
-        className="text-gray-600 mt-5 max-w-2xl mx-auto"
-      >
-        Equipos diseñados para optimizar tu flujo de trabajo clínico,
-        mejorar la precisión y ofrecer una experiencia moderna a tus pacientes.
-      </motion.p>
+                <motion.p
+                  initial={{ opacity: 0, y: 60 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.8 }}
+                  className="text-gray-600 mt-5 max-w-2xl mx-auto"
+                >
+                  Equipos diseñados para optimizar tu flujo de trabajo clínico,
+                  mejorar la precisión y ofrecer una experiencia moderna a tus pacientes.
+                </motion.p>
 
-    </div>
+              </div>
 
-    {/* CARDS */}
-    <div className="grid md:grid-cols-3 gap-10">
+              {/* CARDS */}
+              <div className="grid md:grid-cols-3 gap-10">
 
-      {/* CARD 1 */}
-      <motion.div
-        initial={{ opacity: 0, y: 60 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8 }}
-        className="bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition text-center"
-      >
+                {/* CARD 1 */}
+                <motion.div
+                  initial={{ opacity: 0, y: 60 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.8 }}
+                  className="bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition text-center"
+                >
 
-        <div className="w-16 h-16 mx-auto flex items-center justify-center bg-blue-600 text-white rounded-2xl text-xl font-bold mb-6 shadow-md">
-          1
-        </div>
+                  <div className="w-16 h-16 mx-auto flex items-center justify-center bg-blue-600 text-white rounded-2xl text-xl font-bold mb-6 shadow-md">
+                    1
+                  </div>
 
-        <h3 className="font-semibold text-lg mb-3 text-gray-900">
-          Escaneo Digital
-        </h3>
+                  <h3 className="font-semibold text-lg mb-3 text-gray-900">
+                    Escaneo Digital
+                  </h3>
 
-        <p className="text-gray-600 text-sm leading-relaxed">
-          Captura impresiones digitales con gran precisión y velocidad,
-          eliminando procesos tradicionales incómodos.
-        </p>
+                  <p className="text-gray-600 text-sm leading-relaxed">
+                    Captura impresiones digitales con gran precisión y velocidad,
+                    eliminando procesos tradicionales incómodos.
+                  </p>
 
-      </motion.div>
+                </motion.div>
 
-      {/* CARD 2 DESTACADA */}
-      <motion.div
-        initial={{ opacity: 0, y: 60 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8 }}
-        className="bg-blue-600 text-white rounded-3xl p-8 shadow-2xl scale-105 text-center"
-      >
+                {/* CARD 2 DESTACADA */}
+                <motion.div
+                  initial={{ opacity: 0, y: 60 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.8 }}
+                  className="bg-blue-600 text-white rounded-3xl p-8 shadow-2xl scale-105 text-center"
+                >
 
-        <div className="w-16 h-16 mx-auto flex items-center justify-center bg-white text-blue-600 rounded-2xl text-xl font-bold mb-6 shadow-md">
-          2
-        </div>
+                  <div className="w-16 h-16 mx-auto flex items-center justify-center bg-white text-blue-600 rounded-2xl text-xl font-bold mb-6 shadow-md">
+                    2
+                  </div>
 
-        <h3 className="font-semibold text-lg mb-3">
-          Procesamiento Inteligente
-        </h3>
+                  <h3 className="font-semibold text-lg mb-3">
+                    Procesamiento Inteligente
+                  </h3>
 
-        <p className="text-blue-100 text-sm leading-relaxed">
-          El software analiza los datos y optimiza los modelos digitales
-          para facilitar el diseño y planificación del tratamiento.
-        </p>
+                  <p className="text-blue-100 text-sm leading-relaxed">
+                    El software analiza los datos y optimiza los modelos digitales
+                    para facilitar el diseño y planificación del tratamiento.
+                  </p>
 
-      </motion.div>
+                </motion.div>
 
-      {/* CARD 3 */}
-      <motion.div
-        initial={{ opacity: 0, y: 60 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8 }}
-        className="bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition text-center"
-      >
+                {/* CARD 3 */}
+                <motion.div
+                  initial={{ opacity: 0, y: 60 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.8 }}
+                  className="bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition text-center"
+                >
 
-        <div className="w-16 h-16 mx-auto flex items-center justify-center bg-blue-600 text-white rounded-2xl text-xl font-bold mb-6 shadow-md">
-          3
-        </div>
+                  <div className="w-16 h-16 mx-auto flex items-center justify-center bg-blue-600 text-white rounded-2xl text-xl font-bold mb-6 shadow-md">
+                    3
+                  </div>
 
-        <h3 className="font-semibold text-lg mb-3 text-gray-900">
-          Resultados Profesionales
-        </h3>
+                  <h3 className="font-semibold text-lg mb-3 text-gray-900">
+                    Resultados Profesionales
+                  </h3>
 
-        <p className="text-gray-600 text-sm leading-relaxed">
-          Obtén resultados consistentes y de alta calidad que mejoran
-          la experiencia del paciente y la eficiencia clínica.
-        </p>
+                  <p className="text-gray-600 text-sm leading-relaxed">
+                    Obtén resultados consistentes y de alta calidad que mejoran
+                    la experiencia del paciente y la eficiencia clínica.
+                  </p>
 
-      </motion.div>
+                </motion.div>
 
-    </div>
+              </div>
 
-  </div>
-</section>
+            </div>
+          </section>
 
       {/* ===== Pied de pagina ===== */}
         <footer className="w-full bg-blue-700 py-14 mt-20">
@@ -309,7 +309,7 @@ export default function Capacitacion() {
               <img
                 src="/Logos/Shining3d.png"
                 alt="Shining 3D"
-                className="h-11 md:h-14 w-50 md:w-45"
+                className="h-11 md:h-auto w-50 md:w-52 top-5"
               />
             </div>
             <p className="text-white text-lg text-center font-semibold">

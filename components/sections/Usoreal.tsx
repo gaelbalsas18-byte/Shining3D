@@ -8,7 +8,7 @@ export default function Usoreal() {
     
     <section id="Usoreal" className="w-full bg-blue-700 overflow-hidden">
       
-       <h2 className="text-white text-5xl font-bold text-center mt-5"> Expertos</h2>
+       <h2 className="text-white text-5xl font-bold text-center mt-5"> EXPERIENCIA</h2>
       {/* Parte de arriba */}
       <div className="relative w-full grid md:grid-cols-2 mt-10">
 
@@ -145,7 +145,7 @@ export default function Usoreal() {
             </div>
             <div>
               <span className="text-xs uppercase tracking-widest text-blue-600">
-                Dr. Gianrcarlo
+                Dr. Giancarlo
               </span>
               <h4 className="text-xl font-semibold mt-1">
                 Especialmente fáciles de manejar

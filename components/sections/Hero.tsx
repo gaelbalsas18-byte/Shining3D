@@ -62,7 +62,7 @@ export default function Hero () {
               transition={{ duration: 1 }}
               src="/Logos/Shining3d.png"
               alt="Shining"
-              className="h-6 md:h-12   lg:h-8  w-auto"
+              className="h-6 md:h-12   lg:h-7  w-auto"
            />
            </div>
 

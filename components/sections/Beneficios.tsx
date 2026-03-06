@@ -105,8 +105,8 @@ export default function Beneficios() {
 
         {/* TITULO BENEFICIOS */}
         <div className="max-w-6xl mx-auto text-center">
-          <h3 className="text-5xl font-semibold mb-4 text-blue-700">
-            BENEFICIOS DE SHINING 3D
+          <h3 className="text-5xl font-semibold mb-4 text-black">
+            Beneficios de Shining 3D
           </h3>
         </div>
 
@@ -174,14 +174,14 @@ export default function Beneficios() {
             </motion.h3>
             <motion.div
             initial={{ opacity: 0, y: 60 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1.3 }}>
+             whileInView={{ opacity: 1, y: 0 }}
+             transition={{ duration: 1.3 }}>
               <div className="bg-blue-700 rounded-2xl shadow-xl border border-gray-100 p-6 md:p-8">
-            <p className="text-white text-sm md:text-base leanding-relaxed text-center">
+            <p className="text-white text-sm md:text-base leading-relaxed text-center">
               Al sustituir los moldes convencionales por tecnología digital, 
               el procedimiento se vuelve más limpio, rápido y cómodo. Esto no solo mejora la experiencia del paciente en consulta, 
               sino que también proyecta una imagen innovadora y profesional de la clínica, fortaleciendo la confianza y fidelización.
-              "Siendo el principal objetivo hacia nuestros clientes"
+              "Siendo el principal objetivo para los clientes"
             </p>
             </div>
             </motion.div>
