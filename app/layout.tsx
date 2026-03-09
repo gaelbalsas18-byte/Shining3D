@@ -13,8 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Shining 3D x Balsas",
+  title: "Shining 3D",
   description: "Distribuidor oficial de productos Shining 3D en México",
+  icons: {
+    icon: "/logo.png"
+  },
 };
 
 export default function RootLayout({
