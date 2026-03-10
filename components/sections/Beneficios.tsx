@@ -4,6 +4,7 @@ import Link from "next/link";
 
 export default function Beneficios() {
   return (
+    
     <section
       id="Beneficios"
       className="relative w-full bg-white py-16 px-6 overflow-hidden"
@@ -74,7 +75,6 @@ export default function Beneficios() {
                 </div>
               </motion.div>
             </Link>
-
             {/* PANEL 3 */}
             <Link href="/Impresora" className="block group">
               <motion.div
@@ -112,7 +112,6 @@ export default function Beneficios() {
 
         {/* BENEFICIOS */}
         <div className="max-w-6xl mx-auto mt-16 grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
-
           <div>
             <motion.h3
             initial={{ opacity: 0, x: 80 }}

@@ -11,13 +11,11 @@ const asesores = personas.filter(p =>
     : p.categoria === "asesores"
 );
 
-
 const obtenerAsesorAleatorio = () => {
   if (asesores.length === 0) return null;
   const index = Math.floor(Math.random() * asesores.length);
   return asesores[index];
 };
-
 
 const productos = [
   {
@@ -293,7 +291,6 @@ export default function Clinica() {
                     </motion.div>
                   )}
                 </AnimatePresence>
-
                 {!productoActivo && (
                   <div className="h-full flex items-center justify-center text-gray-400 text-center">
                     Selecciona un producto para ver más detalles

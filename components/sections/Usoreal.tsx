@@ -5,7 +5,6 @@ import Image from "next/image";
 export default function Usoreal() {
   return (
 
-    
     <section id="Usoreal" className="w-full bg-blue-700 overflow-hidden">
       
        <h2 className="text-white text-5xl font-bold text-center mt-5"> EXPERIENCIA</h2>
@@ -261,7 +260,7 @@ export default function Usoreal() {
       initial={{ opacity: 0, y: 60 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
-       className="bg-white rounded-2xl shadow-xl p-6 hover:scale-105 transition">
+      className="bg-white rounded-2xl shadow-xl p-6 hover:scale-105 transition">
 
         <div className="text-3xl mb-3">🦷</div>
 
@@ -337,9 +336,6 @@ export default function Usoreal() {
   </div>
 
 </section>
-
     </section>
-
-    
   );
 }

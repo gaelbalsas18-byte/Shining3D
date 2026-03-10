@@ -3,6 +3,7 @@ import {motion} from "framer-motion";
 import { useState, useEffect } from "react";
 import Image from "next/image";
 
+
 const imagenes =[
   "/Experiencias/exp1.jpeg",
   "/Experiencias/exp2.jpeg",
@@ -65,7 +66,6 @@ export default function Hero () {
               className="h-6 md:h-12   lg:h-7  w-auto"
            />
            </div>
-
            <div className="absolute top-1 left-54 md:top-2 md:left-235 z-20">
               <motion.img
               initial={{ opacity: 0, y:80 }}
