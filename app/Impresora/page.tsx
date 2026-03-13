@@ -159,7 +159,6 @@ export default function Impresora() {
           </div>
         </section>
 
-
             {/* TARJETAS + PANEL DERECHO */}
       <section className="py-16 px-6 md:px-12 lg:px-20 bg-white">
         <h2 className="text-5xl text-black font-bold text-center">Impresoras</h2>
@@ -216,13 +215,13 @@ export default function Impresora() {
                   className="self-end text-2xl hover:rotate-90 transition-transform duration-300 text-blue-800">
                     ✕
                   </button>
+
                   <div className="flex items-center justify-center gap-3">
                     <img 
                     src="/Logos/logo balsas.png"
                     alt="Balsas"
                     className="w-15 h-auto">
                     </img>
-
                     <img
                     src="/Logos/Shining.png"
                     alt="Shining 3D"
@@ -230,6 +229,7 @@ export default function Impresora() {
                     </img>
 
                   </div>
+
                   <img
                     src={productoActivo.imagen}
                     alt={productoActivo.nombre}
@@ -245,7 +245,7 @@ export default function Impresora() {
                     {productoActivo.descripcion}
                   </p>
                 </div>
-                
+
                   <a 
                    href={
                       productoActivo &&
