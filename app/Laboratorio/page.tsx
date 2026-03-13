@@ -228,11 +228,11 @@ export default function Laboratorio() {
                         </img>
 
                         <img
-                        src="/logos/Shining.png"
+                        src="/Logos/Shining.png"
                         alt="Shining 3D"
                         className="w-30 h-auto mt-3">
                         </img>
-                        
+
                       </div>
                       <img
                         src={productoActivo.imagen}
