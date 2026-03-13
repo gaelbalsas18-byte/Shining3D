@@ -216,6 +216,20 @@ export default function Impresora() {
                   className="self-end text-2xl hover:rotate-90 transition-transform duration-300 text-blue-800">
                     ✕
                   </button>
+                  <div className="flex items-center justify-center gap-3">
+                    <img 
+                    src="/Logos/logo balsas.png"
+                    alt="Balsas"
+                    className="w-15 h-auto">
+                    </img>
+
+                    <img
+                    src="/Logos/Shining.png"
+                    alt="Shining 3D"
+                    className="w-30 h-auto mt-3">
+                    </img>
+
+                  </div>
                   <img
                     src={productoActivo.imagen}
                     alt={productoActivo.nombre}
