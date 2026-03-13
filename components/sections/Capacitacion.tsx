@@ -192,7 +192,7 @@ export default function Capacitacion() {
       </div>
 
       <section className="relative w-full bg-white py-24 px-6 md:px-12 lg:px-20 overflow-hidden">
-
+        
             <div className="max-w-7xl mx-auto relative z-10">
 
               {/* TITULO */}

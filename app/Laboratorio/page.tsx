@@ -108,7 +108,7 @@ export default function Laboratorio() {
           </section>
 
 
-<section className="relative w-full bg-white to-gray-50 py-16 px-6 md:px-12 lg:px-20">
+     <section className="relative w-full bg-white to-gray-50 py-16 px-6 md:px-12 lg:px-20">
           <div className="max-w-7xl mx-auto gap-12 items-center relative z-10">
 
             {/* TEXTO */}
@@ -220,6 +220,20 @@ export default function Laboratorio() {
                       className="self-end text-2xl hover:rotate-90 transition-transform duration-300 text-blue-800">
                         ✕
                       </button>
+                      <div className="flex items-center justify-center gap-4 md-3">
+                        <img 
+                        src="/Logos/logo balsas.png"
+                        alt="Balsas"
+                        className="w-15 h-auto">
+                        </img>
+
+                        <img
+                        src="/logos/Shining.png"
+                        alt="Shining 3D"
+                        className="w-30 h-auto mt-3">
+                        </img>
+                        
+                      </div>
                       <img
                         src={productoActivo.imagen}
                         alt={productoActivo.nombre}
