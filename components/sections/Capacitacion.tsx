@@ -126,16 +126,16 @@ export default function Capacitacion() {
                   initial={{ opacity: 0, y: 40 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.6, delay: i * 0.1 }}
-                  className="relative rounded-3xl shadow-xl overflow-hidden h-110"
+                  className="relative rounded-3xl shadow-xl overflow-hidden h-110 "
                 >
                     <Image
                       src={persona.imagen || "/placeholder.jpg"}
                       alt={persona.nombre}
                       fill
-                      className="object-cover"
+                      className="object-cover "
                     />
                     {/*Sombra de la imagen*/}
-                    <div className="absolute inset-0 "/>
+                    <div className="absolute inset-0 bg-black/20"/>
                     <div className="relative p-6 text-white mt-52">
                       <h3 className="text-xl font-bold mb-2">
                         {persona.nombre}
