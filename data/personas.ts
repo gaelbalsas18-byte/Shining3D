@@ -26,7 +26,7 @@ export const personas = [
       descripcion: "Asesor Comercial",
       correo: "humberto@bioden.mx",
       telefono: "5580345711",
-      imagen: "/Personal/beto.jpg",
+      imagen: "/Personal/Humberto.jpg",
     },
 
     {
@@ -46,7 +46,7 @@ export const personas = [
       descripcion: "Asesor Comercial",
       correo: "elena.miranda@balsasdental.com",
       telefono: "5581019640",
-      imagen: "/Personal/Ana E.jpg",
+      imagen: "/Personal/Ana.jpg",
     },
 
     {
