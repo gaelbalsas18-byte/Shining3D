@@ -169,17 +169,19 @@ export default function Impresora() {
             {productos.map((producto, index) => (
               <motion.div
                 key={producto.id}
-                onClick={() => setProductoActivo(producto)} // 👈 CLICK
-                initial={{ opacity: 0, y: 60 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8, delay: index * 0.2 }}
-                viewport={{ once: true }}
-                animate={{ scale: productoActivo?.id === producto.id ? 1.03 : 1,}}
-                className={`rounded-2xl overflow-hidden transition cursor-pointer border border-blue-600
+                onClick={() => setProductoActivo(producto)}
+                initial={{ opacity: 0, y: 60}}
+                whileInView={{ opacity: 1, y: 0}}
+                transition={{ duration: 0.8}}
+                viewport={{ once: true}}
+                animate={{ scale: productoActivo?.id === producto.id ? 1.03 : 1}}
+                className={`h-[320px] rounded-2xl overflow-hidden transition cursor-pointer border border-blue-600
                   ${
                     productoActivo?.id === producto.id
-                      ? "bg-gradient-to-t from-blue-700/100 via-blue-100/10 to-white backdrop-blur-sm shadow-xl ring-2 ring-blue-700"
-                      : "bg-white shadow-lg hover:shadow-2xl"}`}>
+                    ? "bg-gradient-to-t from-blue-700/100 via-blue-100/10 to-white shadow-xl ring-2 ring-blue-700"
+                    : "bg-white shadow-lg hover-shadow-2xl"
+                  }`}
+                      >
                 <img
                   src={producto.imagen}
                   alt={producto.nombre}

@@ -4,11 +4,10 @@ import Link from "next/link";
 
 export default function Beneficios() {
   return (
-    
+
     <section
       id="Beneficios"
-      className="relative w-full bg-white py-16 px-6 overflow-hidden"
-    >
+      className="relative w-full bg-white py-16 px-6 overflow-hidden">
       {/* CONTENIDO GENERAL */}
       <div className="relative z-10">
         {/* CONTENEDOR 1 — TITULO */}
@@ -24,7 +23,7 @@ export default function Beneficios() {
         <div className="w-full max-w-[1220px] mx-auto mb-20">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 
-            {/* PANEL 1 */}
+            {/* PANEL 1  Clinica*/}
             <Link href="/Clinica" className="block group">
               <motion.div
                 initial={{ opacity: 0, y: 60 }}
@@ -49,7 +48,7 @@ export default function Beneficios() {
               </motion.div>
             </Link>
             
-            {/* PANEL 2 */}
+            {/* PANEL 2 Laboratorio*/}
              <Link href="/Laboratorio" className="block group">
               <motion.div
                 initial={{ opacity: 0, y: 60 }}
@@ -73,7 +72,8 @@ export default function Beneficios() {
                 </div>
               </motion.div>
             </Link>
-            {/* PANEL 3 */}
+
+            {/* PANEL 3 Impresion*/}
             <Link href="/Impresora" className="block group">
               <motion.div
                 initial={{ opacity: 0, y: 60 }}
@@ -118,7 +118,7 @@ export default function Beneficios() {
             className="text-2xl font-semibold mb-4 text-blue-700">
               Precisión Digital Avanzada.
             </motion.h3>
-            
+
             <motion.div
               initial={{ opacity: 0, y: 60 }}
               whileInView={{ opacity: 1, y: 0 }}
