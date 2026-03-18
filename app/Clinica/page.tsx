@@ -22,28 +22,28 @@ const productos = [
     id: 1,
     nombre: "Aoralscan 3",
     descripcion: "Flujo de escaneo suave. Precisión superior. Mayor profundidad. Aoralscan 3 combina un diseño moderno con velocidad ultrarrápida, alta precisión y procesamiento avanzado con IA. Su punta estándar ofrece un campo de visión de 16 mm x 12 mm x 22 mm, logrando capturas más rápidas y exactas.",
-    imagen: "/Productos/Clinica/Aoralscan.jpg",
+    imagen: "/Productos/ClinicaS/Aoralscan.jpg",
   },
 
   {
     id: 2,
     nombre: "Aoralscan Elite",
     descripcion: "Sistema dos en uno. Alta precisión. Máxima eficiencia. El Aoralscan Elite integra un diseño compacto y ultraligero con un rendimiento excepcional. Su estructura ergonómica permite un ajuste cómodo en una sola mano, mejorando la usabilidad y la experiencia durante el escaneo. Peso: 124 g Dimensiones: 245 × 30 × 26 mm",
-    imagen: "/Productos/Clinica/aoralscan elite.jpg",
+    imagen: "/Productos/ClinicaS/aoralscan elite.jpg",
   },
 
   {
     id: 3,
-    nombre: "Aoralscan Lynk",
+    nombre: "Aoralscan Lync",
     descripcion: "Escaneo más rápido. Mayor precisión. Mayor profundidad de captura. Aoralscan L está diseñada para adaptarse a diversos escenarios clínicos, desde la adquisición de cuerpos de escaneo hasta exploraciones periodontales. Permite realizar los procedimientos con mínima interacción con el ordenador, brindando una experiencia más segura, fluida y eficiente para el profesional.",
-    imagen: "/Productos/Clinica/Aoralscan.jpg",
+    imagen: "/Productos/ClinicaS/Aoralscan.jpg",
   },
 
   {
     id: 4,
     nombre: "Meti Smile",
     descripcion: "Análisis integral y precisión digital avanzada. Permite registrar el movimiento mandibular, realizar análisis estético facial, simulaciones ortodónticas y diseño digital de sonrisa. Soporta segmentación directa de datos DICOM y autoalineación, integrando datos multimodales en un único sistema de coordenadas",
-    imagen: "/Productos/Clinica/meti small.png",
+    imagen: "/Productos/ClinicaS/meti small.jpg",
   },
   
 ];
@@ -229,7 +229,6 @@ export default function Clinica() {
                       src="/Logos/Shining.png"
                       alt="Shining 3D"
                       className="w-30 h-auto mt-3"></img>
-
                      </div>
 
                       <img

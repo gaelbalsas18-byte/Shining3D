@@ -34,11 +34,10 @@ export default function Beneficios() {
                 className="relative w-full h-72 md:h-96 lg:h-[420px] xl:h-[500px] rounded-3xl overflow-hidden cursor-pointer transition-all duration-500 group-hover:scale-105 border-3 border-blue-600"
             >
              <img
-                  src="/Productos/aoralscan.jpg"
+                  src="/Productos/ClinicaS/aoralscan.jpg"
                   alt="Clínica Dental"
                   className="absolute inset-0 w-full h-full object-cover"
                />
-
                 {/* Overlay dinámico */}
                 <div className="absolute inset-0 group-hover:bg-black/70 transition-all duration-500" />
 
@@ -60,14 +59,13 @@ export default function Beneficios() {
                 className="relative w-full h-72 md:h-96 lg:h-[420px] xl:h-[500px] rounded-3xl overflow-hidden cursor-pointer transition-all duration-500 group-hover:scale-105 border-3 border-blue-600"
               >
                 <img
-                  src="/Productos/Laboratorio/DS EX H.jpg"
-                  alt="Laboratorio"
+                  src="/Productos/LaboratorioS/DS EX H.jpg"
+                  alt="LaboratorioS"
                   className="absolute inset-0 w-full h-full object-cover"
                 />
 
                 {/* Overlay dinámico */}
                 <div className="absolute inset-0 group-hover:bg-black/70 transition-all duration-500" />
-
                 <div className="relative z-10 flex items-center justify-center h-full">
                   <h2 className="text-transparent group-hover:text-white text-3xl md:text-4xl lg:text-3xl font-bold transition-colors duration-500">
                     LABORATORIO
@@ -85,7 +83,7 @@ export default function Beneficios() {
                 className="relative w-full h-72 md:h-96 lg:h-[420px] xl:h-[500px] rounded-3xl overflow-hidden cursor-pointer transition-all duration-500 group-hover:scale-105 border-3 border-blue-700"
               >
                 <img
-                  src="/Productos/Equipos/Acuafast L4D.png"
+                  src="/Productos/Impresoras/Acuafast L4D.jpg"
                   alt="Impresora"
                   className="absolute inset-0 w-full h-full object-cover "
                 />

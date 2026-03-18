@@ -23,28 +23,28 @@ const productos = [
     id: 1,
     nombre: "Accufab Cel",
     descripcion: "Una solución fiable y con precisión, Precisión de impresión alta de 35 μm, Tecnología CPL, Plataforma Cerámica Flexible, Control Inteligente de la Cabina, Permite múltiples impresións con un solo clic en diferentes aplicaciones dentales, como restauración, C&B, férula, guía quirúrgica, modelo ortodóncico, etc. SHINING 3D es la primera empresa en diseñar una plataforma cerámica",
-    imagen: "/Productos/Equipos/Cel.jpg",
+    imagen: "/Productos/Impresoras/Cel.jpg",
   },
 
   {
     id: 2,
     nombre: "Accufab L4D",
     descripcion: "Salida Consistente y Flujo de Trabajo Optimizado, Precisión sin igual, Sistema de Refrigeración Avanzado, Tamaño de impresión grande, resolución 4K, Los tamaños de impresión 70*70mm y 192*120mm y la resolución 4K satisfacen las demandas de los usuarios en cuanto a eficiencia y detalle. Óptica de grado industrial, Robustez de última generación Y Sistema de Refrigeración de Distrito",
-    imagen: "Productos/Equipos/Acuafast L4D.png",
+    imagen: "Productos/Impresoras/Acuafast L4D.jpg",
   },
 
   {
     id: 3,
     nombre: "fab Cure",
     descripcion: "Sistema de postprocesado Uv: Diseñado para lavado y curado de piezas impresas en resina, mejorando la estabilidad dimensional y resistencia mecanica. Especificamente diseñado para trabajar con impresoras AccuFab, asegurando una integración eficiente en flujos de trabajo dentales.",
-    imagen: "/Productos/Equipos/Curning.jpg",
+    imagen: "/Productos/Impresoras/Curning.jpg",
   },
   
   {
     id:4,
     nombre: "Accufab Wash",
     descripcion: "Soluciones Automatizadas Fabwash, es el primer sistema totalmente automatizado, de liberación de piezas, lavado y secado, diseñado para proporcionar la facilidad de uso, consistencia, rapidez y limpieza que exige la impresión dental 3D moderna, está preprogramado para cada material con un proceso automático de liberación, lavado y secado de piezas.",
-    imagen: "/Productos/Equipos/wash.jpg",
+    imagen: "/Productos/Impresoras/wash.jpg",
   },
 ];
 

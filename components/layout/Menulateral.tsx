@@ -4,14 +4,13 @@ import { useState, useEffect } from "react";
 
 const links = [
   { label: "Productos / Beneficios", href: "#Beneficios", id: "Beneficios" },
-  { label: "Experiencia", href: "#Usoreal", id: "Usoreal" },
+  { label: "Experiencia", href: "#Emocional", id: "Emocional" },
   { label: "Capacitación", href: "#Capacitacion", id: "Capacitacion" },
 ];
 
 export default function MenuLateral() {
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState<string>("");
-
   const closeMenu = () => setOpen(false);
 
   /* ===== SCROLL SPY ===== */
@@ -37,7 +36,6 @@ export default function MenuLateral() {
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-
 
   return (
     <>
@@ -67,7 +65,7 @@ export default function MenuLateral() {
         animate={{ opacity: 1}}
         exit={{ opacity: 0}}
         className="fixed inset-0 bg-black/40 backdrop-blur-sm z-30"/>
-
+        
         {/*Panel IOS */}
         <motion.div
         initial={{ x:"-100%", scale: 0.98}}

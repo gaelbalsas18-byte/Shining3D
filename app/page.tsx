@@ -6,6 +6,8 @@ import Capacitacion from "@/components/sections/Capacitacion";
 import Usoreal from "@/components/sections/Usoreal";
 import MenuLateral from "@/components/layout/Menulateral";
 
+import Emocional from "@/components/sections/Emocional";
+
 export default function Home() {
   return (
     <main>
@@ -13,12 +15,13 @@ export default function Home() {
             <Hero/>
             {/*Seccion Beneficios*/}
                   <Beneficios/>
-                  {/*Seccion Uso real (Casos Clinicos)*/}
-                      <Usoreal/>
+                  {/*Seccion de pagina de libro*/}
+                    <Emocional/>
                       {/*Seccion Capacitacion */}
                             <Capacitacion/>
                                 {/*Menu lateral*/}
                                     <MenuLateral/>
+                                     
     </main>
   );
 }

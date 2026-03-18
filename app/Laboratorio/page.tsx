@@ -23,30 +23,29 @@ const productos = [
     id: 1,
     nombre: "Ds Ex Pro",
     descripcion: "Escaneo de alta velocidad, Estructura fácil de usar, Aplicaciones versátiles, Soporte para exportación multiformato es un escáner dental 3D multifuncional desarrollado y fabricado de forma independiente por SHINING 3D, especializado en captura de datos para restauración dental, ortodoncia e implantología. Velocidad de escaneo mejorada. Escaneo dinámico y estático de articuladores. Nuevo escaneo todo en uno. Diseño modular",
-    imagen: "/Productos/Laboratorio/Ds Ex Pro.jpeg",
+    imagen: "/Productos/LaboratorioS/Ds Ex Pro.jpg",
   },
 
   {
     id: 2,
     nombre: "Ds Ex C",
     descripcion: "Escaneo de alta velocidad, Estructura fácil de usar, Aplicaciones versátiles, Soporte para exportación multiformato es un escáner dental 3D multifuncional desarrollado y fabricado de forma independiente por SHINING 3D, especializado en captura de datos para restauración dental, ortodoncia e implantología. Velocidad de escaneo mejorada. Escaneo dinámico y estático de articuladores. Nuevo escaneo todo en uno. Diseño modular",
-    imagen: "/Productos/Laboratorio/Ds Ex C.jpg",
+    imagen: "/Productos/LaboratorioS/Ds Ex C.jpg",
   },
 
   {
     id: 3,
     nombre: "Ds Ex H",
     descripcion: "Escaneo de mordida, Escaneo de la mandíbula superior/inferior, Escaneo de impresión, es un escáner dental 3D con funciones potentes para múltiples aplicaciones, que abarcan escaneos de impresiones, modelos de yeso, articuladores, estribos de implantes, etc. La precisión de escaneo garantiza resultados fiables, satisfaciendo completamente los requisitos de diversas aplicaciones en la industria dental.",
-    imagen: "/Productos/Laboratorio/DS EX H.jpg",
+    imagen: "/Productos/LaboratorioS/DS EX H.jpg",
   },
 
   {
     id: 4,
     nombre: "Ds Ex Mix",
     descripcion: "AutoScan-DS-MIX es un escáner 3D dental de alta gama desarrollado por Shining 3D. Presenta un diseño abierto y una estructura modular, que brinda detalles precisos, alta precisión y alta eficiencia para una amplia gama de aplicaciones dentales, incluidas coronas y puentes, implantes, barras, etc. Resolución de la cámara 2 x 5.0MP y Precisión ≤ 7 µm",
-    imagen: "/Productos/Laboratorio/ds-mix.jpeg",
+    imagen: "/Productos/LaboratorioS/ds-mix.jpg",
   },
-  
 ];
 
 export default function Laboratorio() {
