@@ -34,7 +34,7 @@ export default function Beneficios() {
                 className="relative w-full h-72 md:h-96 lg:h-[420px] xl:h-[500px] rounded-3xl overflow-hidden cursor-pointer transition-all duration-500 group-hover:scale-105 border-3 border-blue-600"
             >
              <img
-                  src="/Productos/ClinicaS/aoralscan.jpg"
+                  src="/Productos/ClinicaS/Aoralscan.jpg"
                   alt="Clínica Dental"
                   className="absolute inset-0 w-full h-full object-cover"
                />
