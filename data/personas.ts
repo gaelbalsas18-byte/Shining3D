@@ -18,7 +18,6 @@ export const personas = [
       telefono: "5549363462",
       imagen: "/Personal/Giancarlo.jpg",
     },
-
     {
       id: "6",
       categoria: ["mantenimiento", "asesores"],
