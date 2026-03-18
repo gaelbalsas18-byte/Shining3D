@@ -5,7 +5,7 @@ import dynamic from "next/dynamic";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
-const HTMLFlipBook = dynamic(() => import("react-pageflip"), {
+const HTMLFlipBook: any = dynamic(() => import("react-pageflip"), {
   ssr: false,
 });
 
