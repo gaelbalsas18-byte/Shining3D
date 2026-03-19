@@ -54,7 +54,7 @@ export const personas = [
       nombre: "Karla Cordoba",
       descripcion: "Asesor Comercial",
       correo: "karla.cordoba@balsasdental.com",
-      telefono: "55 6802 2536",
+      telefono: "5568022536",
       imagen: "/Personal/Karla.jpg",
     },
 
@@ -64,7 +64,7 @@ export const personas = [
       nombre: "Magda Yoatzin Rosas",
       descripcion: "Asesor Comercial",
       correo: "tune.promotor@balsasdental.com",
-      telefono: "56 1162 5274",
+      telefono: "5611625274",
       imagen: "/Personal/Myoa.jpg",
     },
     
