@@ -19,31 +19,45 @@ const obtenerAsesorAleatorio = () => {
 };
 
 const productos = [
-  {
-    id: 1,
-    nombre: "Ds Ex Pro",
-    descripcion: "Escaneo de alta velocidad, Estructura fácil de usar, Aplicaciones versátiles, Soporte para exportación multiformato es un escáner dental 3D multifuncional desarrollado y fabricado de forma independiente por SHINING 3D, especializado en captura de datos para restauración dental, ortodoncia e implantología. Velocidad de escaneo mejorada. Escaneo dinámico y estático de articuladores. Nuevo escaneo todo en uno. Diseño modular",
-    imagen: "/Productos/LaboratorioS/Ds Ex Pro.jpg",
-  },
 
   {
-    id: 2,
-    nombre: "Ds Ex C",
-    descripcion: "Escaneo de alta velocidad, Estructura fácil de usar, Aplicaciones versátiles, Soporte para exportación multiformato es un escáner dental 3D multifuncional desarrollado y fabricado de forma independiente por SHINING 3D, especializado en captura de datos para restauración dental, ortodoncia e implantología. Velocidad de escaneo mejorada. Escaneo dinámico y estático de articuladores. Nuevo escaneo todo en uno. Diseño modular",
+    id: 1,
+    nombre: "Ds-Ex-Pro C",
+    descripcion: `• Escaneo de alta velocidad.
+                  • Estructura fácil de usar.
+                  • Aplicaciones versátiles.
+                  • Soporte para exportación multiformato.
+                  • Es un escáner dental 3D multifuncional, desarrollado y fabricado de forma independiente por SHINING 3D.
+                  • Está especializado en la captura de datos para restauración dental, ortodoncia e implantología.
+                  • Velocidad de escaneo mejorada.
+                  • Escaneo dinámico y estático de articuladores.
+                  • Nuevo escaneo todo en uno.
+                  • Diseño modular.`,
     imagen: "/Productos/LaboratorioS/Ds Ex C.jpg",
   },
 
   {
-    id: 3,
-    nombre: "Ds Ex H",
-    descripcion: "Escaneo de mordida, Escaneo de la mandíbula superior/inferior, Escaneo de impresión, es un escáner dental 3D con funciones potentes para múltiples aplicaciones, que abarcan escaneos de impresiones, modelos de yeso, articuladores, estribos de implantes, etc. La precisión de escaneo garantiza resultados fiables, satisfaciendo completamente los requisitos de diversas aplicaciones en la industria dental.",
+    id: 2,
+    nombre: "Ds-Ex-Pro H",
+    descripcion: `• Escaneo de mordida.
+                  • Escaneo de la mandíbula superior e inferior.
+                  • Escaneo de impresiones.
+                  • Es un escáner dental 3D con funciones potentes para múltiples aplicaciones.
+                  • Abarca escaneos de impresiones, modelos de yeso, articuladores y estribos de implantes, entre otros.
+                  • La precisión de escaneo garantiza resultados fiables.
+                  • Satisface completamente los requisitos de diversas aplicaciones en la industria dental.`,
     imagen: "/Productos/LaboratorioS/DS EX H.jpg",
   },
 
   {
-    id: 4,
-    nombre: "Ds Ex Mix",
-    descripcion: "AutoScan-DS-MIX es un escáner 3D dental de alta gama desarrollado por Shining 3D. Presenta un diseño abierto y una estructura modular, que brinda detalles precisos, alta precisión y alta eficiencia para una amplia gama de aplicaciones dentales, incluidas coronas y puentes, implantes, barras, etc. Resolución de la cámara 2 x 5.0MP y Precisión ≤ 7 µm",
+    id: 3,
+    nombre: "Ds-Ex Mix",
+    descripcion: `• AutoScan-DS-MIX es un escáner dental 3D de alta gama desarrollado por Shining 3D.
+                  • Presenta un diseño abierto y una estructura modular.
+                  • Ofrece detalles precisos, alta precisión y alta eficiencia.
+                  • Está diseñado para una amplia gama de aplicaciones dentales, incluidas coronas, puentes, implantes y barras, entre otras.
+                  • Resolución de la cámara: 2 × 5.0 MP.
+                  • Precisión: ≤ 7 µm.`,
     imagen: "/Productos/LaboratorioS/ds-mix.jpg",
   },
 ];
@@ -106,7 +120,6 @@ export default function Laboratorio() {
             </div>
           </section>
 
-
      <section className="relative w-full bg-white to-gray-50 py-16 px-6 md:px-12 lg:px-20">
           <div className="max-w-7xl mx-auto gap-12 items-center relative z-10">
 
@@ -160,7 +173,6 @@ export default function Laboratorio() {
           </div>
         </section>
 
-    
                 {/* TARJETAS + PANEL DERECHO */}
           <section className="py-16 px-6 md:px-12 lg:px-20 bg-white">
 
@@ -202,9 +214,9 @@ export default function Laboratorio() {
                   </motion.div>
                 ))}
               </div>
-            
+    
               {/* TARJETA DERECHA DINÁMICA */}
-              <div className="lg:w-1/3 min-h-[350px]">
+              <div className="lg:w-2/6 min-h-[520px]">
                 <AnimatePresence mode="wait">
                   {productoActivo && (
                     <motion.div
@@ -238,7 +250,7 @@ export default function Laboratorio() {
                       <img
                         src={productoActivo.imagen}
                         alt={productoActivo.nombre}
-                        className="w-full h-60 object-cover rounded-xl mb-6"
+                        className="w-full h-60 object-cover rounded-xl mb-6 mt-7"
                       />
     
                       <h2 className="text-2xl font-bold mb-4 text-blue-700 text-center">
@@ -246,7 +258,7 @@ export default function Laboratorio() {
                       </h2>
     
                      <div className="border-l-4 border-blue-600 pl-4">
-                      <p className="text-gray-700 text-[15px] leading-7 mt-2">
+                      <p className="whitespace-pre-line text-gray-700 text-[15px] leading-7">
                         {productoActivo.descripcion}
                       </p>
                     </div>

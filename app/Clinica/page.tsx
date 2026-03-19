@@ -21,28 +21,47 @@ const productos = [
   {
     id: 1,
     nombre: "Aoralscan 3",
-    descripcion: "Flujo de escaneo suave. Precisión superior. Mayor profundidad. Aoralscan 3 combina un diseño moderno con velocidad ultrarrápida, alta precisión y procesamiento avanzado con IA. Su punta estándar ofrece un campo de visión de 16 mm x 12 mm x 22 mm, logrando capturas más rápidas y exactas.",
+    descripcion: `• Excepcional, inteligente y elegante.
+                  • Profundidad de barrido de hasta 22 mm.
+                  • Precisión superior y mayor profundidad.
+                  Aoralscan 3 combina un diseño moderno con velocidad ultrarrápida, alta precisión y procesamiento avanzado con IA. Su punta estándar ofrece un campo de visión de 16 mm × 12 mm × 22 mm, logrando capturas más rápidas y exactas.`,
     imagen: "/Productos/ClinicaS/Aoralscan.jpg",
   },
 
   {
     id: 2,
     nombre: "Aoralscan Elite",
-    descripcion: "Sistema dos en uno. Alta precisión. Máxima eficiencia. El Aoralscan Elite integra un diseño compacto y ultraligero con un rendimiento excepcional. Su estructura ergonómica permite un ajuste cómodo en una sola mano, mejorando la usabilidad y la experiencia durante el escaneo. Peso: 124 g Dimensiones: 245 × 30 × 26 mm",
+    descripcion: `• Fotogrametría intraoral.
+                  • Amplia compatibilidad con más de 100 marcas de implantes.
+                  • Sistema dos en uno.
+                  • Alta precisión.
+                  • Máxima eficiencia.
+                  • El Aoralscan Elite integra un diseño compacto y ultraligero con un rendimiento excepcional.
+                  • Su estructura ergonómica permite un ajuste cómodo en una sola mano, mejorando la usabilidad y la experiencia durante el escaneo.
+                  • Peso: 124 g.
+                  • Dimensiones: 245 × 30 × 26 mm.`,
     imagen: "/Productos/ClinicaS/aoralscan elite.jpg",
   },
 
   {
     id: 3,
     nombre: "Aoralscan Lync",
-    descripcion: "Escaneo más rápido. Mayor precisión. Mayor profundidad de captura. Aoralscan L está diseñada para adaptarse a diversos escenarios clínicos, desde la adquisición de cuerpos de escaneo hasta exploraciones periodontales. Permite realizar los procedimientos con mínima interacción con el ordenador, brindando una experiencia más segura, fluida y eficiente para el profesional.",
+    descripcion: `• Escaneo más rápido.
+                  • Mayor precisión.
+                  • Mayor profundidad de captura.
+                  • Aoralscan Lync está diseñada para adaptarse a diversos escenarios clínicos, desde la adquisición de cuerpos de escaneo hasta exploraciones periodontales.
+                  • Permite realizar los procedimientos con mínima interacción con el ordenador, brindando una experiencia más segura, fluida y eficiente para el profesional.` ,
     imagen: "/Productos/ClinicaS/Aoralscan.jpg",
   },
 
   {
     id: 4,
     nombre: "Meti Smile",
-    descripcion: "Análisis integral y precisión digital avanzada. Permite registrar el movimiento mandibular, realizar análisis estético facial, simulaciones ortodónticas y diseño digital de sonrisa. Soporta segmentación directa de datos DICOM y autoalineación, integrando datos multimodales en un único sistema de coordenadas",
+    descripcion: `• Análisis integral y precisión digital avanzada.
+                  • Permite registrar el movimiento mandibular.
+                  • Realiza análisis estético facial, simulaciones ortodónticas y diseño digital de sonrisa.
+                  • Soporta la segmentación directa de datos DICOM y la autoalineación.
+                  • Integra datos multimodales en un único sistema de coordenadas.`,
     imagen: "/Productos/ClinicaS/meti small.jpg",
   },
   
@@ -203,7 +222,7 @@ export default function Clinica() {
               </div>
 
               {/* TARJETA DERECHA DINÁMICA */}
-              <div className="lg:w-1/3 min-h-[350px]">
+              <div className="lg:w-2/6 min-h-[520px]">
                 <AnimatePresence mode="wait">
                   {productoActivo && (
                     <motion.div
@@ -236,7 +255,7 @@ export default function Clinica() {
                       <img
                         src={productoActivo.imagen}
                         alt={productoActivo.nombre}
-                        className="w-full h-60 object-cover rounded-xl mb-6"
+                        className="w-full h-60 object-cover rounded-xl mb-6 mt-7"
                       />
 
                       <h2 className="text-2xl font-bold mb-4 text-blue-700 text-center">
@@ -244,7 +263,7 @@ export default function Clinica() {
                       </h2>
 
                      <div className="border-l-4 border-blue-600 pl-4">
-                      <p className="text-gray-700 text-[15px] leading-7 mt-2">
+                      <p className="whitespace-pre-line text-gray-700 text-[15px] leading-7">
                         {productoActivo.descripcion}
                       </p>
                     </div>

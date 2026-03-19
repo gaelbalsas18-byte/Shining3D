@@ -24,7 +24,7 @@ export const personas = [
       nombre: "Humberto Corvera Santillan",
       descripcion: "Asesor Comercial",
       correo: "humberto@bioden.mx",
-      telefono: "5580345711",
+      telefono: "5610209675",
       imagen: "/Personal/BetoH.jpg",
     },
 

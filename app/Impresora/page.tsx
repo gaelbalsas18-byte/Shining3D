@@ -22,28 +22,49 @@ const productos = [
   {
     id: 1,
     nombre: "Accufab Cel",
-    descripcion: "Una solución fiable y con precisión, Precisión de impresión alta de 35 μm, Tecnología CPL, Plataforma Cerámica Flexible, Control Inteligente de la Cabina, Permite múltiples impresións con un solo clic en diferentes aplicaciones dentales, como restauración, C&B, férula, guía quirúrgica, modelo ortodóncico, etc. SHINING 3D es la primera empresa en diseñar una plataforma cerámica",
+    descripcion: `• Una solución fiable y precisa.
+                  • Precisión de impresión de hasta 35 µm.
+                  • Tecnología CPL.
+                  • Plataforma cerámica flexible.
+                  • Control inteligente de la cabina.
+                  • Permite múltiples impresiones con un solo clic en diferentes aplicaciones dentales, como restauración, coronas y puentes (C&B), férulas, guías quirúrgicas y modelos ortodónticos, entre otros.`,
     imagen: "/Productos/Impresoras/Cel.jpg",
   },
 
   {
     id: 2,
     nombre: "Accufab L4D",
-    descripcion: "Salida Consistente y Flujo de Trabajo Optimizado, Precisión sin igual, Sistema de Refrigeración Avanzado, Tamaño de impresión grande, resolución 4K, Los tamaños de impresión 70*70mm y 192*120mm y la resolución 4K satisfacen las demandas de los usuarios en cuanto a eficiencia y detalle. Óptica de grado industrial, Robustez de última generación Y Sistema de Refrigeración de Distrito",
+    descripcion: `• Salida consistente y flujo de trabajo optimizado.
+                  • Precisión sin igual.
+                  • Sistema de refrigeración avanzado.
+                  • Gran tamaño de impresión.
+                  • Resolución 4K.
+                  • Los tamaños de impresión de 70 × 70 mm y 192 × 120 mm, junto con la resolución 4K, satisfacen las demandas de los usuarios en cuanto a eficiencia y detalle.
+                  • Óptica de grado industrial.
+                  • Robustez de última generación.
+                  • Sistema de refrigeración por zonas.`,
     imagen: "Productos/Impresoras/Acuafast L4D.jpg",
   },
 
   {
     id: 3,
-    nombre: "fab Cure",
-    descripcion: "Sistema de postprocesado Uv: Diseñado para lavado y curado de piezas impresas en resina, mejorando la estabilidad dimensional y resistencia mecanica. Especificamente diseñado para trabajar con impresoras AccuFab, asegurando una integración eficiente en flujos de trabajo dentales.",
+    nombre: "Fab Cure",
+    descripcion: `• Sistema de postprocesado UV.
+                  • Diseñado para el lavado y curado de piezas impresas en resina.
+                  • Mejora la estabilidad dimensional y la resistencia mecánica.
+                  • Específicamente diseñado para trabajar con impresoras AccuFab.
+                  • Asegura una integración eficiente en flujos de trabajo dentales.`,
     imagen: "/Productos/Impresoras/Curning.jpg",
   },
   
   {
     id:4,
     nombre: "Accufab Wash",
-    descripcion: "Soluciones Automatizadas Fabwash, es el primer sistema totalmente automatizado, de liberación de piezas, lavado y secado, diseñado para proporcionar la facilidad de uso, consistencia, rapidez y limpieza que exige la impresión dental 3D moderna, está preprogramado para cada material con un proceso automático de liberación, lavado y secado de piezas.",
+    descripcion: `• Soluciones automatizadas FabWash.
+                  • Es el primer sistema totalmente automatizado de liberación de piezas, lavado y secado.
+                  • Está diseñado para proporcionar la facilidad de uso, consistencia, rapidez y limpieza que exige la impresión dental 3D moderna.
+                  • Está preprogramado para cada material.
+                  • Cuenta con un proceso automático de liberación, lavado y secado de piezas.`,
     imagen: "/Productos/Impresoras/wash.jpg",
   },
 ];
@@ -200,7 +221,7 @@ export default function Impresora() {
           </div>
         
           {/* TARJETA DERECHA DINÁMICA */}
-          <div className="lg:w-1/3 min-h-[350px]">
+          <div className="lg:w-2/6 min-h-[520px]">
             <AnimatePresence mode="wait">
               {productoActivo && (
                 <motion.div
@@ -227,7 +248,7 @@ export default function Impresora() {
                     <img
                     src="/Logos/Shining.png"
                     alt="Shining 3D"
-                    className="w-30 h-auto mt-3">
+                    className="w-30 h-auto mt-5">
                     </img>
 
                   </div>
@@ -235,7 +256,7 @@ export default function Impresora() {
                   <img
                     src={productoActivo.imagen}
                     alt={productoActivo.nombre}
-                    className="w-full h-60 object-cover rounded-xl mb-6"
+                    className="w-full h-60 object-cover rounded-xl mb-6 mt-7"
                   />
 
                   <h2 className="text-2xl font-bold mb-4 text-blue-700 text-center">
@@ -243,7 +264,7 @@ export default function Impresora() {
                   </h2>
 
                  <div className="border-l-4 border-blue-600 pl-4">
-                  <p className="text-gray-700 text-[15px] leading-7 mt-2">
+                  <p className="whitespace-pre-line text-gray-700 text-[15px] leading-7">
                     {productoActivo.descripcion}
                   </p>
                 </div>
