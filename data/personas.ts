@@ -23,7 +23,7 @@ export const personas = [
       categoria: ["mantenimiento", "asesores"],
       nombre: "Humberto Corvera Santillan",
       descripcion: "Asesor Comercial",
-      correo: "humberto@bioden.mx",
+      correo: "humberto.corvera@balsasdental.com",
       telefono: "5610209675",
       imagen: "/Personal/BetoH.jpg",
     },
