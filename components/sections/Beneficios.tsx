@@ -16,11 +16,15 @@ export default function Beneficios() {
             <h3 className="text-5xl font-semibold mb-4 text-black">
               CATEGORIAS
             </h3>
+            <h3
+            className="text-xs uppercase text-black font-semibold tracking-widest text-neutral-500 mb-3 text-center">
+              Balsas x Shining 3D
+            </h3>
           </div>
         </div>
 
         {/* CONTENEDOR 2 — PANELES */}
-        <div className="w-full max-w-[1220px] mx-auto mb-20">
+        <div className="w-full max-w-[1220px] mx-auto mb-20 mt-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 
             {/* PANEL 1  Clinica*/}

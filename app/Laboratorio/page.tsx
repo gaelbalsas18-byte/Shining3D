@@ -177,7 +177,13 @@ export default function Laboratorio() {
                 {/* TARJETAS + PANEL DERECHO */}
           <section className="py-16 px-6 md:px-12 lg:px-20 bg-white">
 
-            <h2 className="text-black text-5xl font-bold text-center">Laboratorio</h2>
+            <h2 className="text-black text-5xl font-bold text-center">
+              Laboratorio
+              </h2>
+            <h3
+              className="text-xs uppercase font-semibold tracking-widest text-neutral-500 mb-3 text-center mt-3">
+              Balsas x Shining 3D
+            </h3>
 
             <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-10 mt-10">
               

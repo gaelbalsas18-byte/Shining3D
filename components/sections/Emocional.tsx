@@ -69,9 +69,13 @@ export default function Emocional() {
           initial={{ opacity: 0, y: 60 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="bg-white flex items-center md:text-center text-center justify-center text-black font-bold text-xl md:text-3xl p-6"
+          className="bg-white flex items-center md:text-center text-center justify-center text-black font-bold text-xl md:text-4xl p-6"
         >
           EXPERIENCIA 
+          <h3
+            className="text-xs uppercase tracking-widest text-neutral-500 mb-3 text-center mt-3">
+              Balsas x Shining 3D
+            </h3>
           <div className="absolute md:left-190 md:top-40 left-20 top-100">
               <motion.img
               initial={{}}
@@ -149,8 +153,12 @@ export default function Emocional() {
                   </motion.div>
                 </div>        
         </motion.div>
-        <div className="bg-white flex items-center md:text-center text-center justify-center text-black font-bold text-xl md:text-3xl p-6">
+        <div className="bg-white flex items-center md:text-center text-center justify-center text-black font-bold text-xl md:text-4xl p-6">
           EXPERIENCIA
+          <h3
+            className="text-xs uppercase tracking-widest text-neutral-500 mb-3 text-center mt-3">
+              Balsas x Shining 3D
+            </h3>
           <div className="absolute md:left-65 md:top-40 left-20 top-100">
               <img
             src="/Logos/Shining.png"
@@ -252,9 +260,12 @@ export default function Emocional() {
                 </div> 
         </div>
 
-        <div className="bg-white flex items-center md:text-center text-center justify-center text-black font-bold text-xl md:text-3xl p-6">
+        <div className="bg-white flex items-center md:text-center text-center justify-center text-black font-bold text-xl md:text-4xl p-6">
           EXPERIENCIA
-
+          <h3
+            className="text-xs uppercase tracking-widest text-neutral-500 mb-3 text-center mt-3">
+              Balsas x Shining 3D
+            </h3>
           <div className="absolute md:left-65 md:top-40 left-20 top-100">
               <img
                  src="/Logos/Shining.png"

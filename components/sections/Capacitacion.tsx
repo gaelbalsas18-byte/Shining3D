@@ -32,6 +32,10 @@ export default function Capacitacion() {
         <h3 className="text-5xl font-semibold text-black">
           NOSOTROS
         </h3>
+        <h3
+            className="text-xs text-black font-semibold uppercase tracking-widest text-neutral-500 mb-3 text-center mt-3">
+              Balsas x Shining 3D
+        </h3>
       </div>
 
       {/* BOTONES */}
@@ -312,10 +316,17 @@ export default function Capacitacion() {
                 className="h-11 md:h-auto w-50 md:w-52 top-5"
               />
             </div>
+
+            <h3
+            className="text-xs uppercase text-white font-semibold tracking-widest text-neutral-500 mb-5 text-center">
+              Balsas x Shining 3D
+            </h3>
+
             <p className="text-white text-lg text-center font-semibold">
               © 2026 Shining 3D México. Todos los derechos reservados. <br />
               © 2026 Balsas Dental. Todos los derechos reservados.
             </p>
+
             {/* Redes Balsas*/}
             <div className="flex justify-center items-center gap-6 mb-6 mt-7">
               <a
@@ -331,6 +342,7 @@ export default function Capacitacion() {
                 <Instagram size={33}/>
               </a>
             </div>
+            
           </div>
         </footer>
     </section>
