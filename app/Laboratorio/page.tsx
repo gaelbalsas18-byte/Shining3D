@@ -1,4 +1,5 @@
 "use client";
+
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import Image from "next/image";
@@ -60,6 +61,7 @@ const productos = [
                   • Precisión: ≤ 7 µm.`,
     imagen: "/Productos/LaboratorioS/ds-mix.jpg",
   },
+
 ];
 
 export default function Laboratorio() {

@@ -10,17 +10,19 @@ const HTMLFlipBook: any = dynamic(() => import("react-pageflip"), {
 });
 
 export default function Emocional() {
-  const [size, setSize] = useState({ width: 300, height: 400 });
+  const [size, setSize] = useState({ width: 400, height: 500 });
   const bookRef = useRef<any>(null);
 
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth < 640) {
-        setSize({ width: 300, height: 400 });
+        setSize({ width: 400, height: 450 });
+        
       } else if (window.innerWidth < 1024) {
+        
         setSize({ width: 500, height: 600 });
       } else {
-        setSize({ width: 1100, height: 700 });
+        setSize({ width: 1240, height: 600 });
       }
     };
 
@@ -56,7 +58,7 @@ export default function Emocional() {
 
   return (
 
-    <section id="Emocional" className="bg-blue-800 py-15 flex justify-center items-center">
+    <section id="Emocional" className="bg-blue-700 py-15 flex justify-center items-center">
       <HTMLFlipBook
         ref={bookRef}
         width={size.width}
@@ -71,7 +73,7 @@ export default function Emocional() {
         >
 
           EXPERIENCIA 
-          <div className=" absolute left-190 top-40">
+          <div className="absolute md:left-190 md:top-40 left-20 top-100">
               <motion.img
               initial={{}}
               transition={{duration: 0.8}}
@@ -89,7 +91,7 @@ export default function Emocional() {
                     viewport={{ once: true }}
                     transition={{ duration: 0.8 }}
                     whileHover={{ scale: 1.04 }}
-                    className="relative h-[250px] w-[160px] md:h-[420px] md:w-[300px] top-[-55] max-w-sm overflow-hidden rounded-3xl shadow-xl group left-22 md:left-40 border-3 border-blue-700"
+                    className="relative h-[250px] w-[160px] md:h-[420px] md:w-[280px] top-[-75] md:top-[-55] max-w-sm overflow-hidden rounded-3xl shadow-xl group left-25 md:left-55 border-3 border-blue-600"
                   >
                     <Image
                       src="/Personal/Giancarlo.jpg"
@@ -97,7 +99,7 @@ export default function Emocional() {
                       fill
                       className="object-cover transition-transform duration-700 group-hover:scale-110 "
                     />
-          
+                    
                     {/* Overlay */}
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
           
@@ -120,15 +122,16 @@ export default function Emocional() {
                   whileInView={{ opacity: 1, x: 0 }}
                   transition={{ duration: 1.2 }}
                   className="absolute
-                  right-0
-                  top-140
-                  w-[520px]
+                  md:left-150
+                  right-[-13]
+                  w-[380px]
                   rounded-3xl
-                  top-[200px]
+                  top-[190px]
                   md:top-23
                   bg-white
                   md:w-[420px]
-                  p-10
+                  md:p-10
+                  p-6
                   shadow-2xl">
                     <div className="flex items-start gap-4 mb-4">
                       <div className="bg-blue-600 p-4 text-white text-xl">
@@ -151,7 +154,7 @@ export default function Emocional() {
 
         <div className="bg-white flex items-center md:text-center text-center justify-center text-black font-bold text-xl md:text-3xl p-6">
           EXPERIENCIA
-          <div className=" absolute left-60 top-40">
+          <div className="absolute md:left-65 md:top-40 left-20 top-100">
               <img
             src="/Logos/Shining.png"
             alt="logo"
@@ -167,7 +170,7 @@ export default function Emocional() {
                     viewport={{ once: true }}
                     transition={{ duration: 0.8 }}
                     whileHover={{ scale: 1.04 }}
-                    className="relative h-[250px] w-[160px] md:h-[420px] md:w-[300px] top-[-50] max-w-sm overflow-hidden rounded-3xl shadow-xl group left-23 md:left-150 border-3 border-blue-700"
+                    className="relative h-[250px] w-[160px] md:h-[420px] md:w-[280px] top-[-80] md:top-[-50] max-w-sm overflow-hidden rounded-3xl shadow-xl group left-25 md:left-170 border-3 border-blue-700"
                   >
                     <Image
                       src="/Personal/Giancarlo.jpg"
@@ -197,17 +200,15 @@ export default function Emocional() {
                   whileInView={{ opacity: 1, x: 0 }}
                   transition={{ duration: 1.2 }}
                   className="absolute
-                  right-0
-                  md:left-[100]
-                  top-51
-                  w-[150px]
-                  rounded-3xl
+                  md:left-[120]
+                  md:w-[150px]
+                  md:rounded-3xl
                   md:top-80
-                  bg-blue-700
+                  md:bg-blue-700
                   md:w-[380px]
                   md:h-[2px]
-                  p-5
-                  shadow-2xl">
+                  md:p-5
+                  md:shadow-2xl">
                   </motion.div>
                   {/* Tarjeta Azul*/}
                   
@@ -217,16 +218,18 @@ export default function Emocional() {
                   transition={{ duration: 1.3 }}
                   className="
                     absolute
-                    left-[5%]
-                    top-[250]
+                    md:left-[5%]
+                    right-[-13]
+                    top-[175]
                     md:top-25
                     rounded-3xl
                     bg-white
                     text-black
                     w-[320px]
                     md:w-[480px]
+                    w-[380px]
                     md:h-[200px]
-                    p-2
+                    md:p-2
                     shadow-2xl
                   "
                 >
@@ -256,13 +259,15 @@ export default function Emocional() {
         <div className="bg-white flex items-center md:text-center text-center justify-center text-black font-bold text-xl md:text-3xl p-6">
           EXPERIENCIA
 
-          <div className=" absolute left-60 top-40">
+          <div className="absolute md:left-65 md:top-40 left-20 top-100">
               <img
-            src="/Logos/Shining.png"
-            alt="logo"
-            className="w-[auto] h-[50px]">
+                 src="/Logos/Shining.png"
+                 alt="logo"
+                 className="
+                 w-[auto] 
+                 h-[50px]">
              </img>
-        </div>
+          </div>
 
           <div className="relative w-full grid md:grid-cols-2 mt-20">
                   {/* Imagen */}
@@ -272,7 +277,7 @@ export default function Emocional() {
                     viewport={{ once: true }}
                     transition={{ duration: 0.8 }}
                     whileHover={{ scale: 1.04 }}
-                    className="relative h-[250px] w-[160px] md:h-[420px] md:w-[300px] top-[-50] max-w-sm overflow-hidden rounded-3xl shadow-xl group left-23 md:left-150 border-3 border-blue-700"
+                    className="relative h-[250px] w-[160px] md:h-[420px] md:w-[280px] top-[-80] md:top-[-50] max-w-sm overflow-hidden rounded-3xl shadow-xl group left-25 md:left-170 border-3 border-blue-700"
                   >
                     <Image
                       src="/Personal/Giancarlo.jpg"
@@ -287,11 +292,11 @@ export default function Emocional() {
                     {/* Texto */}
                     <div className="absolute bottom-5 left-5 text-white max-w-[220px]">
           
-                      <h3 className="text-lg font-semibold text-center">
+                      <h3 className="md:text-lg text-xs font-semibold text-center">
                         Tecnología dental
                       </h3>
                       <p className="text-xs text-gray-200 mt-1">
-                        Soluciones Digitales para clínicas modernas.
+                        Soluciones digitales para clínicas modernas.
                       </p>
           
                     </div>
@@ -302,18 +307,15 @@ export default function Emocional() {
                   whileInView={{ opacity: 1, x: 0 }}
                   transition={{ duration: 1.2 }}
                   className="absolute
-                  right-0
-                  md:left-[100]
-                  left-1
-                  top-51
-                  w-[150px]
-                  rounded-3xl
+                  md:left-[120]
+                  md:w-[150px]
+                  md:rounded-3xl
                   md:top-80
-                  bg-blue-700
+                  md:bg-blue-700
                   md:w-[380px]
                   md:h-[2px]
-                  p-5
-                  shadow-2xl">
+                  md:p-5
+                  md:shadow-2xl">
                   </motion.div>
                   {/* Tarjeta Azul*/}
 
@@ -323,16 +325,18 @@ export default function Emocional() {
                   transition={{ duration: 1.3 }}
                   className="
                     absolute
-                    left-[5%]
-                    top-[250]
+                    md:left-[5%]
+                    right-[-13]
+                    top-[175]
                     md:top-25
                     rounded-3xl
                     bg-white
                     text-black
                     w-[320px]
                     md:w-[480px]
+                    w-[380px]
                     md:h-[200px]
-                    p-2
+                    md:p-2
                     shadow-2xl
                   "
                 >
