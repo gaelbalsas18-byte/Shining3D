@@ -71,7 +71,6 @@ export default function Emocional() {
           transition={{ duration: 0.8 }}
           className="bg-white flex items-center md:text-center text-center justify-center text-black font-bold text-xl md:text-3xl p-6"
         >
-
           EXPERIENCIA 
           <div className="absolute md:left-190 md:top-40 left-20 top-100">
               <motion.img
@@ -82,7 +81,6 @@ export default function Emocional() {
             className="w-[auto] h-[50px]">
              </motion.img>
           </div>
-
           <div className="relative w-full grid md:grid-cols-2 mt-20">
                   {/* Imagen */}
                   <motion.div
@@ -99,7 +97,7 @@ export default function Emocional() {
                       fill
                       className="object-cover transition-transform duration-700 group-hover:scale-110 "
                     />
-                    
+
                     {/* Overlay */}
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
           
@@ -151,7 +149,6 @@ export default function Emocional() {
                   </motion.div>
                 </div>        
         </motion.div>
-
         <div className="bg-white flex items-center md:text-center text-center justify-center text-black font-bold text-xl md:text-3xl p-6">
           EXPERIENCIA
           <div className="absolute md:left-65 md:top-40 left-20 top-100">
@@ -161,7 +158,6 @@ export default function Emocional() {
             className="w-[auto] h-[50px]">
              </img>
         </div>
-
           <div className="relative w-full grid md:grid-cols-2 mt-20">
                   {/* Imagen */}
                   <motion.div
@@ -318,7 +314,6 @@ export default function Emocional() {
                   md:shadow-2xl">
                   </motion.div>
                   {/* Tarjeta Azul*/}
-
                  <motion.div
                   initial={{ opacity: 0, y: 60 }}
                   whileInView={{ opacity: 1, y: 0 }}

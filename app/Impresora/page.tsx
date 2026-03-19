@@ -81,28 +81,27 @@ export default function Impresora() {
         className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-l from-blue-600 via-blue-600/60 to-transparent">
-          <div className="absolute top-5.5 left-72 md:top-10 md:left-255 z-20">
-            <motion.img
-                  src="/Logos/Shining3d.png"
-                  alt="Shining"
-                  initial={{ opacity: 0, y: 80 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 1.3 }}
-                  className="h-6 md:h-5 lg:h-12 w-auto md:w-50"
-                />
-          </div>
-
-          <div className="absolute top-1 left-54 md:top-2 md:left-220 z-20">
-            <motion.img
-                  src="/Logos/BalsasTrans.png"
-                  alt="Balsas"
-                  initial={{ opacity: 0, y: 80 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 1.3 }}
-                  className="h-12 md:h-12 lg:h-23 w-auto"
-                />
-          </div>
-
+          <div className="absolute top-5.5 left-72 md:top-10 md:left-260 z-20">
+              <motion.img
+              initial={{ opacity: 0, y: 80 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1 }}
+              src="/Logos/Shining3d.png"
+              alt="Shining"
+              className="h-6 md:h-12   lg:h-7  w-auto"
+           />
+           </div>
+           <div className="absolute top-1 left-54 md:top-2 md:left-235 z-20">
+              <motion.img
+              initial={{ opacity: 0, y:80 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration:   1 }}
+              src="/Logos/BalsasTrans.png"
+              alt="Balsas"
+              className="h-12 md:h-12   lg:h-17  w-auto"
+              />
+           </div>
+    
           <div className="relative z-10 h-full flex items-center justify-center md:justify-end px-6 md:px-12 lg:px-20">
             <div className="text-white max-w-xl text-center md:text-right">
               <motion.h1
