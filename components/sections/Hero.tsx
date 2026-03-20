@@ -11,7 +11,7 @@ export default function Hero () {
         <section className="relative w-full h-[100vh] lg:h:screen overflow-hidden">
           {/*Video*/}
          <video
-         className="absolute inset-0 w-full h-full object-cover"
+         className="absolute inset-0 w-full h-full object-cover brightness-110"
          src="/Web/shining 3d.mp4"
          autoPlay
          loop
