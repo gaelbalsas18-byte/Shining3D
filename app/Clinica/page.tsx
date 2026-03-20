@@ -24,7 +24,8 @@ const productos = [
     descripcion: `• Excepcional, inteligente y elegante.
                   • Profundidad de barrido de hasta 22 mm.
                   • Precisión superior y mayor profundidad.
-                  • Aoralscan 3 combina un diseño moderno con velocidad ultrarrápida, alta precisión y procesamiento avanzado con IA. Su punta estándar ofrece un campo de visión de 16 mm × 12 mm × 22 mm, logrando capturas más rápidas y exactas.`,
+                  • Aoralscan 3 combina un diseño moderno con velocidad ultrarrápida, alta precisión y procesamiento avanzado con IA. 
+                  • Su punta estándar ofrece un campo de visión de 16 mm × 12 mm × 22 mm, logrando capturas más rápidas y exactas.`,
     imagen: "/Productos/ClinicaS/Aoralscan.jpg",
   },
 
@@ -49,8 +50,8 @@ const productos = [
     descripcion: `• Escaneo más rápido.
                   • Mayor precisión.
                   • Mayor profundidad de captura.
-                  • Aoralscan Lync está diseñada para adaptarse a diversos escenarios clínicos, desde la adquisición de cuerpos de escaneo hasta exploraciones periodontales.
-                  • Permite realizar los procedimientos con mínima interacción con el ordenador, brindando una experiencia más segura, fluida y eficiente para el profesional.` ,
+                  • Aoralscan Lync está diseñada para adaptarse a diversos escenarios clínicos, como lo es la adquisición de cuerpos de escaneo hasta exploraciones periodontales.
+                  • Permite realizar los procedimientos con mínima interacción con el ordenador, brindando una experiencia más segura, fluida y eficiente.` ,
     imagen: "/Productos/ClinicaS/aoralscan lync.jpg"
   },
 
