@@ -45,7 +45,7 @@ export default function Hero () {
               initial={{ opacity: 0, y: 80}}
               animate={{ opacity: 1, y:  0}}
               transition={{ duration: 1}}
-              className="text-white md:text-[9px] text-[8px] md:top-60 mt-50 md:leading-tight leading-relaxed md:uppercase font-semibold text-center">
+              className="text-white md:text-[9px] text-[8px] md:mt-40 mt:90 md:leading-tight leading-relaxed md:uppercase font-semibold text-center">
               Algunos contenidos audiovisuales mostrados en este sitio pertenecen a <strong>Shining 3D </strong>
               y se utilizan con fines informativos y comerciales bajo autorización.
               </motion.p>
