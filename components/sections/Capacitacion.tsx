@@ -121,7 +121,7 @@ export default function Capacitacion() {
         )}
 
         {vista !== "inicio" && (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {personas
               .filter((persona) => persona.categoria.includes(vista))
               .map((persona, i) => (
@@ -130,7 +130,7 @@ export default function Capacitacion() {
                   initial={{ opacity: 0, y: 40 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.6, delay: i * 0.1 }}
-                  className="relative rounded-3xl shadow-xl overflow-hidden h-110 "
+                  className="relative rounded-3xl shadow-xl overflow-hidden h-107 w-[336px]"
                 >
                     <Image
                       src={persona.imagen || "/placeholder.jpg"}
@@ -139,7 +139,7 @@ export default function Capacitacion() {
                       className="object-cover "
                     />
                     {/*Sombra de la imagen*/}
-                    <div className="absolute inset-0 bg-black/20"/>
+                    <div className="absolute inset-0 "/>
                     <div className="relative p-6 text-white mt-52">
                       <h3 className="text-xl font-bold mb-2">
                         {persona.nombre}

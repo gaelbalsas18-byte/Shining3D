@@ -51,7 +51,7 @@ const productos = [
     nombre: "Fab Cure",
     descripcion: `• Sistema de postprocesado UV.
                   • Diseñado para el lavado y curado de piezas impresas en resina.
-                  • Mejora la estabilidad dimensional y la resistencia mecánica.
+                  • Mejora la estabilidad dimensional, asi como la resistencia mecánica.
                   • Específicamente diseñado para trabajar con impresoras AccuFab.
                   • Asegura una integración eficiente en flujos de trabajo dentales.`,
     imagen: "/Productos/Impresoras/Curning.jpg",
@@ -159,18 +159,18 @@ export default function Impresora() {
                 className="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm text-gray-700 justify-items-center"
               >
 
-                <div className="flex items-center gap-2 justify-center">
-                  <span className="text-blue-600 text-lg">✔</span>
+                <div className="flex items-center gap-2 justify-center text-xl text-black">
+                  <span className="text-blue-600 text-2xl">✔</span>
                   Tecnología avanzada
                 </div>
 
-                <div className="flex items-center gap-3 justify-center">
-                  <span className="text-blue-600 text-lg">✔</span>
+                <div className="flex items-center gap-3 justify-center text-xl text-black">
+                  <span className="text-blue-600 text-2xl">✔</span>
                   Alta precisión
                 </div>
 
-                <div className="flex items-center gap-2 justify-center">
-                  <span className="text-blue-600 text-lg">✔</span>
+                <div className="flex items-center gap-2 justify-center text-xl text-black">
+                  <span className="text-blue-600 text-2xl">✔</span>
                   Soporte especializado
                 </div>
 
@@ -204,7 +204,7 @@ export default function Impresora() {
                 className={`h-[320px] rounded-2xl overflow-hidden transition cursor-pointer border border-blue-600
                   ${
                     productoActivo?.id === producto.id
-                    ? "bg-gradient-to-t from-blue-700/100 via-blue-100/10 to-white shadow-xl ring-2 ring-blue-700"
+                    ? "bg-blue-600 from-blue-700/100 via-blue-100/100 to-white shadow-xl ring-2 ring-blue-700"
                     : "bg-white shadow-lg hover-shadow-2xl"
                   }`}
                       >
@@ -226,7 +226,7 @@ export default function Impresora() {
           </div>
         
           {/* TARJETA DERECHA DINÁMICA */}
-          <div className="lg:w-2/6 min-h-[520px]">
+          <div className="lg:w-3/8 min-h-[520px]">
             <AnimatePresence mode="wait">
               {productoActivo && (
                 <motion.div
@@ -244,7 +244,7 @@ export default function Impresora() {
                     ✕
                   </button>
 
-                  <div className="flex items-center justify-center gap-3">
+                  {/**<div className="flex items-center justify-center gap-3">
                     <img 
                     src="/Logos/logo balsas.png"
                     alt="Balsas"
@@ -256,12 +256,12 @@ export default function Impresora() {
                     className="w-30 h-auto mt-5">
                     </img>
 
-                  </div>
+                  </div> */}
 
                   <img
                     src={productoActivo.imagen}
                     alt={productoActivo.nombre}
-                    className="w-full h-60 object-cover rounded-xl mb-6 mt-7"
+                    className="w-full h-80 object-cover rounded-xl"
                   />
 
                   <h2 className="text-2xl font-bold mb-4 text-blue-700 text-center">
@@ -269,7 +269,7 @@ export default function Impresora() {
                   </h2>
 
                  <div className="border-l-4 border-blue-600 pl-4">
-                  <p className="whitespace-pre-line text-gray-700 text-[15px] leading-7">
+                  <p className="whitespace-pre-line text-gray-700 text-[14px] leading-7">
                     {productoActivo.descripcion}
                   </p>
                 </div>

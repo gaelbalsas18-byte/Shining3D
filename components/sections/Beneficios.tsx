@@ -34,7 +34,7 @@ export default function Beneficios() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8 }}
                 viewport={{ once: true }}
-                className="relative w-full h-72 md:h-96 lg:h-[420px] xl:h-[500px] rounded-3xl overflow-hidden cursor-pointer transition-all duration-500 group-hover:scale-105 border-3 border-blue-600"
+                className="relative w-full h-72 md:h-96 lg:h-[420px] xl:h-[500px] rounded-3xl overflow-hidden cursor-pointer transition-all duration-500 group-hover:scale-105 border-3 border-black"
             >
              <img
                   src="/Productos/ClinicaS/Aoralscan.jpg"
@@ -59,7 +59,7 @@ export default function Beneficios() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8 }}
                 viewport={{ once: true }}
-                className="relative w-full h-72 md:h-96 lg:h-[420px] xl:h-[500px] rounded-3xl overflow-hidden cursor-pointer transition-all duration-500 group-hover:scale-105 border-3 border-blue-600"
+                className="relative w-full h-72 md:h-96 lg:h-[420px] xl:h-[500px] rounded-3xl overflow-hidden cursor-pointer transition-all duration-500 group-hover:scale-105 border-3 border-black"
               >
                 <img
                   src="/Productos/LaboratorioS/DS EX H.jpg"
@@ -84,7 +84,7 @@ export default function Beneficios() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8 }}
                 viewport={{ once: true }}
-                className="relative w-full h-72 md:h-96 lg:h-[420px] xl:h-[500px] rounded-3xl overflow-hidden cursor-pointer transition-all duration-500 group-hover:scale-105 border-3 border-blue-700"
+                className="relative w-full h-72 md:h-96 lg:h-[420px] xl:h-[500px] rounded-3xl overflow-hidden cursor-pointer transition-all duration-500 group-hover:scale-105 border-3 border-black"
               >
                 <img
                   src="/Productos/Impresoras/Acuafast L4D.jpg"

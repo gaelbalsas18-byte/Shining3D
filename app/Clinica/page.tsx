@@ -79,6 +79,7 @@ export default function Clinica() {
               className="absolute inset-0 w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-l from-blue-600 via-blue-600/60 to-transparent">
+              
               <div className="absolute top-5.5 left-72 md:top-10 md:left-260 z-20">
               <motion.img
               initial={{ opacity: 0, y: 80 }}
@@ -98,7 +99,7 @@ export default function Clinica() {
               alt="Balsas"
               className="h-12 md:h-12   lg:h-17  w-auto"
               />
-           </div>
+           </div> 
     
               <div className="relative z-10 h-full flex items-center justify-center md:justify-end px-6 md:px-12 lg:px-20">
                 <div className="text-white max-w-xl text-center md:text-right">
@@ -157,18 +158,18 @@ export default function Clinica() {
                 className="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm text-gray-700 justify-items-center"
               >
 
-                <div className="flex items-center gap-2 justify-center">
-                  <span className="text-blue-600 text-lg">✔</span>
+                <div className="flex items-center gap-2 justify-center text-xl text-black">
+                  <span className="text-blue-600 text-2xl">✔</span>
                   Tecnología avanzada
                 </div>
 
-                <div className="flex items-center gap-3 justify-center">
-                  <span className="text-blue-600 text-lg">✔</span>
+                <div className="flex items-center gap-3 justify-center text-xl text-black">
+                  <span className="text-blue-600 text-2xl">✔</span>
                   Alta precisión
                 </div>
 
-                <div className="flex items-center gap-2 justify-center">
-                  <span className="text-blue-600 text-lg">✔</span>
+                <div className="flex items-center gap-2 justify-center text-xl text-black">
+                  <span className="text-blue-600 text-2xl">✔</span>
                   Soporte especializado
                 </div>
 
@@ -203,7 +204,7 @@ export default function Clinica() {
                       className={`h-[320px] rounded-2xl overflow-hidden transition cursor-pointer border border-blue-600
                         ${
                           productoActivo?.id === producto.id
-                            ? "bg-gradient-to-t from-blue-700/100 via-blue-100/10 to-white shadow-xl ring-2 ring-blue-700"
+                            ? "bg-blue-600 from-blue-700/100 via-blue-100/10 to-white shadow-xl ring-2 ring-blue-700"
                             : "bg-white shadow-lg hover:shadow-2xl"
                         }`}
                     >
@@ -225,7 +226,7 @@ export default function Clinica() {
               </div>
 
               {/* TARJETA DERECHA DINÁMICA */}
-              <div className="lg:w-2/6 min-h-[520px]">
+              <div className="lg:w-3/8 min-h-[520px]">
                 <AnimatePresence mode="wait">
                   {productoActivo && (
                     <motion.div
@@ -242,7 +243,7 @@ export default function Clinica() {
                         ✕
                       </button>
 
-                     <div className="flex items-center justify-center gap-4 mb-3">
+                     {/**<div className="flex items-center justify-center gap-4 mb-3">
                       <img
                       src="/Logos/logo balsas.png"
                       alt="Balsas"
@@ -253,12 +254,12 @@ export default function Clinica() {
                       src="/Logos/Shining.png"
                       alt="Shining 3D"
                       className="w-30 h-auto mt-3"></img>
-                     </div>
+                     </div> */}
 
                       <img
                         src={productoActivo.imagen}
                         alt={productoActivo.nombre}
-                        className="w-full h-60 object-cover rounded-xl mb-6 mt-7"
+                        className="w-full h-80 object-cover rounded-xl"
                       />
 
                       <h2 className="text-2xl font-bold mb-4 text-blue-700 text-center">
@@ -266,7 +267,7 @@ export default function Clinica() {
                       </h2>
 
                      <div className="border-l-4 border-blue-600 pl-4">
-                      <p className="whitespace-pre-line text-gray-700 text-[15px] leading-7">
+                      <p className="whitespace-pre-line text-gray-700 text-[14px] leading-7">
                         {productoActivo.descripcion}
                       </p>
                     </div>
