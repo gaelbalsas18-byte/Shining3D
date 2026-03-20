@@ -27,7 +27,7 @@ const productos = [
                   • Tecnología CPL.
                   • Plataforma cerámica flexible.
                   • Control inteligente de la cabina.
-                  • Permite múltiples impresiones con un solo clic en diferentes aplicaciones dentales, como restauración, coronas y puentes (C&B), férulas, guías quirúrgicas y modelos ortodónticos, entre otros.`,
+                  • Permite múltiples impresiones con un solo clic en diferentes aplicaciones dentales, como restauración, coronas y puentes (C&B), férulas, guías quirúrgicas y modelos ortodónticos.`,
     imagen: "/Productos/Impresoras/Cel.jpg",
   },
 
