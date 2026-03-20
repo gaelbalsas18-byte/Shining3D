@@ -93,7 +93,7 @@ export default function Emocional() {
                     viewport={{ once: true }}
                     transition={{ duration: 0.8 }}
                     whileHover={{ scale: 1.04 }}
-                    className="relative h-[250px] w-[160px] md:h-[420px] md:w-[280px] top-[-75] md:top-[-55] max-w-sm overflow-hidden rounded-3xl shadow-xl group left-25 md:left-55 border-3 border-blue-600"
+                    className="relative h-[250px] w-[160px] md:h-[420px] md:w-[280px] top-[-75] md:top-[-55] max-w-sm overflow-hidden rounded-3xl shadow-xl group left-25 md:left-55"
                   >
                     <Image
                       src="/Personal/Giancarlo.jpg"
@@ -104,18 +104,6 @@ export default function Emocional() {
 
                     {/* Overlay */}
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
-          
-                    {/* Texto */}
-                    <div className="absolute bottom-5 left-5 text-white max-w-[220px]">
-          
-                      <h3 className="text-xs font-semibold text-center md:text-lg">
-                        Tecnología dental
-                      </h3>
-                      <p className="text-xs text-gray-200 mt-1">
-                        Soluciones digitales para clínicas modernas.
-                      </p>
-          
-                    </div>
 
                   </motion.div>
 
@@ -174,7 +162,7 @@ export default function Emocional() {
                     viewport={{ once: true }}
                     transition={{ duration: 0.8 }}
                     whileHover={{ scale: 1.04 }}
-                    className="relative h-[250px] w-[160px] md:h-[420px] md:w-[280px] top-[-80] md:top-[-50] max-w-sm overflow-hidden rounded-3xl shadow-xl group left-25 md:left-170 border-3 border-blue-700"
+                    className="relative h-[250px] w-[160px] md:h-[420px] md:w-[280px] top-[-80] md:top-[-50] max-w-sm overflow-hidden rounded-3xl shadow-xl group left-25 md:left-170"
                   >
                     <Image
                       src="/Personal/Giancarlo.jpg"
@@ -185,18 +173,6 @@ export default function Emocional() {
           
                     {/* Overlay */}
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
-          
-                    {/* Texto */}
-                    <div className="absolute bottom-5 left-5 text-white max-w-[220px]">
-          
-                      <h3 className="md:text-lg text-xs font-semibold text-center">
-                        Tecnología dental
-                      </h3>
-                      <p className="text-xs text-gray-200 mt-1">
-                        Soluciones digitales para clínicas modernas.
-                      </p>
-          
-                    </div>
                     
                   </motion.div>
                   <motion.div
@@ -284,7 +260,7 @@ export default function Emocional() {
                     viewport={{ once: true }}
                     transition={{ duration: 0.8 }}
                     whileHover={{ scale: 1.04 }}
-                    className="relative h-[250px] w-[160px] md:h-[420px] md:w-[280px] top-[-80] md:top-[-50] max-w-sm overflow-hidden rounded-3xl shadow-xl group left-25 md:left-170 border-3 border-blue-700"
+                    className="relative h-[250px] w-[160px] md:h-[420px] md:w-[280px] top-[-80] md:top-[-50] max-w-sm overflow-hidden rounded-3xl shadow-xl group left-25 md:left-170"
                   >
                     <Image
                       src="/Personal/Giancarlo.jpg"
@@ -292,22 +268,8 @@ export default function Emocional() {
                       fill
                       className="object-cover transition-transform duration-700 group-hover:scale-110 "
                     />
-          
                     {/* Overlay */}
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
-          
-                    {/* Texto */}
-                    <div className="absolute bottom-5 left-5 text-white max-w-[220px]">
-          
-                      <h3 className="md:text-lg text-xs font-semibold text-center">
-                        Tecnología dental
-                      </h3>
-                      <p className="text-xs text-gray-200 mt-1">
-                        Soluciones digitales para clínicas modernas.
-                      </p>
-          
-                    </div>
-                    
                   </motion.div>
                   <motion.div
                   initial={{ opacity: 0, x: 80 }}

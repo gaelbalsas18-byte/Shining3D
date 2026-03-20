@@ -69,13 +69,15 @@ export default function Laboratorio() {
   return (
     <>
           {/* HERO*/}
-          <section className="relative w-full h-[60vh] md:h-[60vh]">
-             <img
-              src="Experiencias/exp1.jpeg"
-              alt="clinicaS" 
-              className="absolute inset-0 w-full h-full object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-l from-blue-600 via-blue-600/60 to-transparent">
+          <section className="relative w-full h-[60vh] md:h-[45vh]">
+             <video
+             className="absolute inset-0 w-full h-full object-cover"
+             src="/Web/shining 3d.mp4"
+             autoPlay
+             loop
+             muted
+             playsInline/>
+            <div className="absolute inset-0 bg-gradient-to-l from-blue-700 via-blue-800/30 to-transparent">
               <div className="absolute top-5.5 left-72 md:top-10 md:left-260 z-20">
               <motion.img
               initial={{ opacity: 0, y: 80 }}

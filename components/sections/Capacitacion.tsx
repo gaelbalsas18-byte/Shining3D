@@ -11,9 +11,10 @@ export default function Capacitacion() {
   const [vista, setVista] = useState("inicio");
   const [index, setIndex] = useState(0);
   const images = [
-    "/Carrusel/Carrusel1.jpg",
-    "/Carrusel/Carrusel2.jpeg",
-    "/Carrusel/Carrusel3.png",
+    "/Web/Imagen1.webp",
+    "/Web/DientesB.webp",
+    "/Web/Muestra.webp",
+    "/Web/Oa.webp",
   ];
 
   // Carrusel automático
@@ -301,7 +302,7 @@ export default function Capacitacion() {
           </section>
 
       {/* ===== Pied de pagina ===== */}
-        <footer className="w-full bg-blue-700 py-14 mt-20">
+        <footer className="w-full bg-blue-700 py-5 mt-20">
           <div className="max-w-6xl mx-auto px-6">
 
             <div className="flex justify-center items-center gap-8 mb-6">
@@ -322,8 +323,11 @@ export default function Capacitacion() {
               Balsas x Shining 3D
             </h3>
 
-            <p className="text-white text-lg text-center font-semibold">
+            <p className="text-xs uppercase text-white font-semibold tracking-widest text-neutral-500 mb-4 text-center">
               © 2026 Shining 3D México. Todos los derechos reservados. <br />
+            </p>
+
+            <p className="text-xs uppercase text-white font-semibold tracking-widest text-neutral-500 mb-5 text-center">
               © 2026 Balsas Dental. Todos los derechos reservados.
             </p>
 

@@ -34,8 +34,7 @@ export default function Beneficios() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8 }}
                 viewport={{ once: true }}
-                className="relative w-full h-72 md:h-96 lg:h-[420px] xl:h-[500px] rounded-3xl overflow-hidden cursor-pointer transition-all duration-500 group-hover:scale-105 border-3 border-black"
-            >
+                className="relative w-full h-72 md:h-96 lg:h-[420px] xl:h-[500px] rounded-3xl overflow-hidden cursor-pointer transition-all duration-500 group-hover:scale-105 border-3 border-black">
              <img
                   src="/Productos/ClinicaS/Aoralscan.jpg"
                   alt="Clínica Dental"
@@ -131,12 +130,10 @@ export default function Beneficios() {
             >
               <div className="bg-blue-700 rounded-2xl shadow-xl border border-gray
               -100 p-6 md:p-8">
-                <p className="text-white text-sm md:text-base leading-relaxed text-center">
-                  Los escáneres intraorales de Shining 3D 
-                  capturan imágenes tridimensionales con alto nivel de detalle, permitiendo diagnósticos 
-                  más precisos y una mejor planificación de tratamientos.
-                  Esta exactitud reduce errores en prótesis, ortodoncia e implantología, 
-                  mejorando la calidad del resultado final y la satisfacción del paciente.
+                <p className="text-white text-sm md:text-sm leading-relaxed text-center">
+                  Los escáneres intraorales de Shining 3D capturan imágenes 3D de alta precisión,
+                  facilitando diagnósticos más exactos y una mejor planificación,
+                  lo que reduce errores y mejora los resultados y la satisfacción del paciente.
                 </p>
               </div>
             </motion.div>
@@ -156,11 +153,11 @@ export default function Beneficios() {
              whileInView={{ opacity: 1, y: 0 }}
              transition={{ duration: 1.3 }}>
               <div className="bg-blue-700 rounded-2xl shadow-xl border border-gray-100 p-6 md:p-8">
-            <p className="text-white text-sm md:text-base leading-relaxed text-center">
-              La digitalización del escaneo elimina la necesidad de impresiones tradicionales, 
-              reduciendo tiempos clínicos y optimizando la comunicación con el laboratorio. Los archivos se envían de forma inmediata, 
-              acelerando los procesos y permitiendo a la clínica atender más pacientes con mayor organización y productividad.
-            </p>
+            <p className="text-white text-sm md:text-sm leading-relaxed text-center">
+             La digitalización del escaneo elimina impresiones tradicionales,
+             reduce tiempos clínicos y agiliza la comunicación con el laboratorio,
+             Los archivos se envían de forma inmediata, 
+             permitiendo procesos más rápidos y mayor productividad en la clínica.</p>
             </div>
             </motion.div>
           </div>
@@ -178,11 +175,10 @@ export default function Beneficios() {
              whileInView={{ opacity: 1, y: 0 }}
              transition={{ duration: 1.3 }}>
               <div className="bg-blue-700 rounded-2xl shadow-xl border border-gray-100 p-6 md:p-8">
-            <p className="text-white text-sm md:text-base leading-relaxed text-center">
-              Al sustituir los moldes convencionales por tecnología digital, 
-              el procedimiento se vuelve más limpio, rápido y cómodo. Esto no solo mejora la experiencia del paciente en consulta, 
-              sino que también proyecta una imagen innovadora y profesional de la clínica, fortaleciendo la confianza y fidelización.
-              "Siendo el principal objetivo para los clientes"
+            <p className="text-white text-sm md:text-sm leading-relaxed text-center">
+              Al reemplazar los moldes tradicionales por tecnología digital,
+              el proceso es más limpio, rápido y cómodo, mejorando la experiencia del paciente
+              y reforzando la imagen profesional de la clínica, lo que fortalece la confianza y fidelización.
             </p>
             </div>
             </motion.div>

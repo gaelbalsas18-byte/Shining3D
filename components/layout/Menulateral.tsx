@@ -84,6 +84,11 @@ export default function MenuLateral() {
            ✕
         </button>
 
+        <motion.h3
+          className="text-xs text-white font-semibold uppercase tracking-widest mb-3 text-center mt-6">
+          Balsas x Shining 3D
+          </motion.h3>
+
         {/*Nav*/}
         <nav className="flex flex-col gap-3 text-[17px] font-semibold mt-10">
             {links.map((item) => {

@@ -12,12 +12,13 @@ export const personas = [
     {
       id: "2",
       categoria: ["capacitacion", "mantenimiento", "asesores"],
-      nombre: "Dr. Giancarlo Graber",
+      nombre: "Giancarlo Graber",
       descripcion: "Asesor Comercial",
       correo: "contacto@drtrading.mx",
       telefono: "5549363462",
       imagen: "/Personal/Giancarlo.jpg",
     },
+    
     {
       id: "6",
       categoria: ["mantenimiento", "asesores"],
