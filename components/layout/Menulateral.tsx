@@ -163,7 +163,7 @@ export default function MenuLateral() {
           </nav>
           {/*Logos Balsas-Shining*/}
           <motion.div
-          className="mt-auto pt-10 flex items-center justify-center gap-6 opacity-90">
+          className=" pt-10 flex items-center justify-center gap-6 opacity-90">
             <img
             src="/Logos/BalsasTrans.png"
             alt="Balsas"
