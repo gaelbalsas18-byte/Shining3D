@@ -211,7 +211,7 @@ export default function Impresora() {
                 <img
                   src={producto.imagen}
                   alt={producto.nombre}
-                  className="w-full h-56 object-cover"
+                  className="w-full md:h-56 h-65 object-contain md:object-cover"
                 />
                 <div className="p-6">
                   <h3

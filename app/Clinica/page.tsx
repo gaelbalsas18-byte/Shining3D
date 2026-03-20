@@ -18,6 +18,7 @@ const obtenerAsesorAleatorio = () => {
 };
 
 const productos = [
+
   {
     id: 1,
     nombre: "Aoralscan 3",
@@ -192,8 +193,8 @@ export default function Clinica() {
 
             <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-10 mt-10">
               {/* GRID ORIGINAL (NO CAMBIADO) */}
-              <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:w-2/3 ">
-                {productos.map((producto, index) => (
+              <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:w-2/3">
+              {productos.map((producto, index) => (
                   <motion.div
                       key={producto.id}
                       onClick={() => setProductoActivo(producto)}
@@ -212,7 +213,7 @@ export default function Clinica() {
                     <img
                       src={producto.imagen}
                       alt={producto.nombre}
-                      className="w-full h-56 object-cover"
+                      className="w-full md:h-56 h-65 object-contain md:object-cover"
                     />
                     <div className="p-6">
                       <h3

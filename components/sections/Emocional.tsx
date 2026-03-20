@@ -16,7 +16,7 @@ export default function Emocional() {
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth < 640) {
-        setSize({ width: 400, height: 450 });
+        setSize({ width: 400, height: 500 });
         
       } else if (window.innerWidth < 1024) {
         
