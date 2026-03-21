@@ -83,6 +83,7 @@ export default function Impresora() {
          muted
          playsInline/>
         <div className="absolute inset-0 bg-gradient-to-l from-blue-700 via-blue-800/30 to-transparent">
+
           <div className="absolute top-5.5 left-72 md:top-10 md:left-260 z-20">
               <motion.img
               initial={{ opacity: 0, y: 80 }}
@@ -93,6 +94,7 @@ export default function Impresora() {
               className="h-6 md:h-12   lg:h-7  w-auto"
            />
            </div>
+           
            <div className="absolute top-1 left-54 md:top-2 md:left-235 z-20">
               <motion.img
               initial={{ opacity: 0, y:80 }}

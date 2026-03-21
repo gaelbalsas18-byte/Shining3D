@@ -18,7 +18,6 @@ export default function Hero () {
          muted
          playsInline/>
           ))
-
           {/*Degradado azul*/}
           <div className="absolute inset-0 bg-gradient-to-l from-blue-700 via-blue-800/30 to-transparent"/>
           {/*Contenido*/}
