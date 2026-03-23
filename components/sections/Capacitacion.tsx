@@ -318,10 +318,18 @@ export default function Capacitacion() {
               />
             </div>
 
-            <h3
-            className="text-xs uppercase text-white font-semibold tracking-widest text-neutral-500 mb-5 text-center">
-              Balsas x Shining 3D
-            </h3>
+              <a
+              href="https://www.shining3ddental.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block text-center text-[11px] uppercase font-semibold tracking-widest text-white mb-5"
+            >
+              Video Banner de Shining 3D.
+            </a>
+
+            <p className="text-[9px] uppercase text-white font-semibold tracking-widest text-neutral-500 mb-5 text-center">
+              Algunos materiales audiovisuales e imágenes presentes en este sitio web son propiedad de Shining 3D. Balsas Dental hace uso de dicho contenido con fines promocionales e informativos en el marco de su relación comercial.
+            </p>
 
             <p className="text-xs uppercase text-white font-semibold tracking-widest text-neutral-500 mb-4 text-center">
               © 2026 Shining 3D México. Todos los derechos reservados. <br />
@@ -346,7 +354,6 @@ export default function Capacitacion() {
                 <Instagram size={33}/>
               </a>
             </div>
-            
           </div>
         </footer>
     </section>
