@@ -93,6 +93,7 @@ export default function Clinica() {
               alt="Shining"
               className="h-6 md:h-12   lg:h-7  w-auto"
            />
+
            </div>
            <div className="absolute top-1 left-54 md:top-2 md:left-235 z-20">
               <motion.img
@@ -103,6 +104,7 @@ export default function Clinica() {
               alt="Balsas"
               className="h-12 md:h-12   lg:h-17  w-auto"
               />
+              
            </div> 
     
               <div className="relative z-10 h-full flex items-center justify-center md:justify-end px-6 md:px-12 lg:px-20">
