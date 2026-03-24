@@ -60,7 +60,7 @@ export default function Hero () {
                   initial={{ opacity: 0, y: 80 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 1 }}
-                  className="text-[clamp(0.8rem,3.5vw,1rem)] md:text-[clamp(0.9rem,1.5vw,1.25rem)] mt-[-4%] md:mt-[3%]"
+                  className="text-[clamp(0.9rem,1.5vw,1.25rem)] mt-[3%]"
                 >
                   Lleve tu clínica al siguiente nivel con tecnología digital.
                   <br />
@@ -75,7 +75,7 @@ export default function Hero () {
                 initial={{ opacity: 0, y: 80 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
-                className="text-white text-[clamp(0.6rem,0.8vw,0.8rem)] text-center max-w-[90%] md:max-w-[95%] leading-relaxed font-semibold"
+                className="text-white text-[clamp(0.6rem,0.8vw,0.8rem)] mt-[-13%] md:mt-[-3%] text-center max-w-[90%] md:max-w-[95%] leading-relaxed font-semibold"
               >
                 Algunos contenidos audiovisuales mostrados en este sitio pertenecen a <strong>Shining 3D</strong> y 
                 se utilizan con fines informativos y comerciales.
@@ -84,4 +84,4 @@ export default function Hero () {
           </div>
         </section>
       )
-}
+} 
