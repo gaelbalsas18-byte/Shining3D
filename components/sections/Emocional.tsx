@@ -51,7 +51,7 @@ export default function Emocional() {
           }
         }
       }
-    }, 7000);
+    }, 8500);
   }, 4000);
 
   return () => {
