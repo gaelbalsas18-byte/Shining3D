@@ -330,11 +330,7 @@ export default function Capacitacion() {
             <p className="text-[9px] uppercase text-white font-semibold tracking-widest text-neutral-500 mb-5 text-center">
               Algunos materiales audiovisuales e imágenes presentes en este sitio web son propiedad de Shining 3D. Balsas Dental hace uso de dicho contenido con fines promocionales e informativos en el marco de su relación comercial.
             </p>
-
-            <p className="text-xs uppercase text-white font-semibold tracking-widest text-neutral-500 mb-4 text-center">
-              © 2026 Shining 3D México. Todos los derechos reservados. <br />
-            </p>
-
+            
             <p className="text-xs uppercase text-white font-semibold tracking-widest text-neutral-500 mb-5 text-center">
               © 2026 Balsas Dental. Todos los derechos reservados.
             </p>
