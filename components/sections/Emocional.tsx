@@ -16,8 +16,8 @@ export default function Emocional() {
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth < 640) {
-        setSize({ width: 400, height: 500 });
-        
+      setSize({ width: 320, height: 420 });  
+
       } else if (window.innerWidth < 1024) {
         
         setSize({ width: 500, height: 600 });
@@ -51,7 +51,7 @@ export default function Emocional() {
           }
         }
       }
-    }, 6530);
+    }, 7000);
   }, 4000);
 
   return () => {
@@ -78,270 +78,228 @@ useEffect(() => {
         height={size.height}
         className="shadow-2xl"
       >
+
         <motion.div
-          initial={{ opacity: 0, y: 60 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          className="bg-white flex items-center md:text-center text-center justify-center text-black font-bold text-xl md:text-4xl p-6"
-        >
-          EXPERIENCIA 
-          <h3
-            className="text-xs uppercase tracking-widest text-neutral-500 mb-3 text-center mt-3">
-              Balsas x Shining 3D
-            </h3>
-          <div className="absolute md:left-190 md:top-40 left-20 top-100">
-              <motion.img
-              initial={{}}
-              transition={{duration: 0.8}}
-            src="/Logos/Shining.png"
-            alt="logo"
-            className="w-[auto] h-[50px]">
-             </motion.img>
-          </div>
-          <div className="relative w-full grid md:grid-cols-2 mt-20">
-                  {/* Imagen */}
-                  <motion.div
-                    initial={{ opacity: 0, y: 40 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.8 }}
-                    whileHover={{ scale: 1.04 }}
-                    className="relative h-[250px] w-[160px] md:h-[420px] md:w-[280px] top-[-75] md:top-[-55] max-w-sm overflow-hidden rounded-3xl shadow-xl group left-25 md:left-55"
-                  >
-                    <Image
-                      src="/Personal/Giancarlo.jpg"
-                      alt="Uso profesional"
-                      fill
-                      className="object-cover transition-transform duration-700 group-hover:scale-110 "
-                    />
+              initial={{ opacity: 0, y: 60 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+              className="bg-white text-black p-6 md:p-10 flex flex-col items-center"
+            >
 
-                    {/* Overlay */}
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
+              {/* TITULO */}
+              <h2 className="text-xl md:text-4xl font-bold text-center">
+                EXPERIENCIA
+              </h2>
 
-                  </motion.div>
+              <div className="relative flex flex-col items-center mt-2">
+                <h3 className="text-xs uppercase tracking-widest text-black font-semibold
+                translate-x-1 md:translate-x-45 mt-2 md:mt-7">
+                  Balsas x Shining 3D
+                </h3>
 
-                  <motion.div
-                  initial={{ opacity: 0, x: 80 }}
+                <img
+                  src="/Logos/Shining.png"
+                  alt="logo"
+                  className="h-[40px] md:h-[50px] mt-2 md:mt-7 
+                  translate-x-1 md:translate-x-45"
+                />
+              </div>
+
+              {/* CONTENIDO */}
+              <div className="w-full mt-10 flex flex-col md:flex-row items-center justify-center gap-8">
+
+                {/* IMAGEN */}
+                <motion.div
+                  whileHover={{ scale: 1.04 }}
+                  className="relative h-[140px] w-[160px] md:h-[420px] md:w-[280px] 
+                  overflow-hidden rounded-3xl shadow-xl group 
+                  -mt-6 md:-mt-25 translate-y-[-10px] md:translate-y-[-20px]"
+                >
+                  <Image
+                    src="/Personal/Giancarlo.jpg"
+                    alt="Uso profesional"
+                    fill
+                    className="object-cover transition-transform duration-700 group-hover:scale-110"
+                  />
+
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent" />
+                </motion.div>
+
+                {/* TARJETA */}
+                <motion.div
+                  initial={{ opacity: 0, x: 60 }}
                   whileInView={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 1.2 }}
-                  className="absolute
-                  md:left-150
-                  right-[-13]
-                  w-[380px]
-                  rounded-3xl
-                  top-[190px]
-                  md:top-23
-                  bg-white
-                  md:w-[420px]
-                  md:p-10
-                  p-6
-                  shadow-2xl">
-                    <div className="flex items-start gap-4 mb-4">
-                      <div className="bg-blue-600 p-4 text-white text-xl">
-                        👁
-                      </div>
-                      <div>
-                        <span className="md:text-xs text-xs uppercase tracking-widest text-blue-600">
-                          Pregunta 1
-                        </span>
-                        <h4 className="font-semibold font-mono text-black mt-1 text-xs md:text-xl">
-                          ¿Que tan dificil es trabajar con un escaner de Shining 3D? 
-                        </h4>
-                      </div>
+                  transition={{ duration: 1 }}
+                  className="w-full max-w-[300px] md:max-w-[420px] bg-white rounded-3xl p-6 md:p-8 shadow-2xl -mt-10"
+                >
+                  <div className="flex items-start gap-4 mb-4">
+                    <div className="bg-blue-600 p-4 text-white text-xl">
+                      👁
                     </div>
-                    <p className="text-sm text-black leanding-relaxed">
-                    </p> 
-                  </motion.div>
-                </div>        
-        </motion.div>
-        <div className="bg-white flex items-center md:text-center text-center justify-center text-black font-bold text-xl md:text-4xl p-6">
-          EXPERIENCIA
-          <h3
-            className="text-xs uppercase tracking-widest text-neutral-500 mb-3 text-center mt-3">
-              Balsas x Shining 3D
-            </h3>
-          <div className="absolute md:left-65 md:top-40 left-20 top-100">
-              <img
-            src="/Logos/Shining.png"
-            alt="logo"
-            className="w-[auto] h-[50px]">
-             </img>
-        </div>
-          <div className="relative w-full grid md:grid-cols-2 mt-20">
-                  {/* Imagen */}
-                  <motion.div
-                    initial={{ opacity: 0, y: 40 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.8 }}
-                    whileHover={{ scale: 1.04 }}
-                    className="relative h-[250px] w-[160px] md:h-[420px] md:w-[280px] top-[-80] md:top-[-50] max-w-sm overflow-hidden rounded-3xl shadow-xl group left-25 md:left-170"
-                  >
-                    <Image
-                      src="/Personal/Giancarlo.jpg"
-                      alt="Uso profesional"
-                      fill
-                      className="object-cover transition-transform duration-700 group-hover:scale-110 "
-                    />
-          
-                    {/* Overlay */}
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
-                    
-                  </motion.div>
-                  <motion.div
-                  initial={{ opacity: 0, x: 80 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 1.2 }}
-                  className="absolute
-                  md:left-[120]
-                  md:w-[150px]
-                  md:rounded-3xl
-                  md:top-80
-                  md:bg-blue-700
-                  md:w-[380px]
-                  md:h-[2px]
-                  md:p-5
-                  md:shadow-2xl">
-                  </motion.div>
-                  {/* Tarjeta Azul*/}
-                  
-                 <motion.div
-                  initial={{ opacity: 0, y: 60 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 1.3 }}
-                  className="
-                    absolute
-                    md:left-[5%]
-                    right-[-13]
-                    top-[175]
-                    md:top-25
-                    rounded-3xl
-                    bg-white
-                    text-black
-                    w-[320px]
-                    md:w-[480px]
-                    w-[380px]
-                    md:h-[200px]
-                    md:p-2
-                    shadow-2xl
-                  "
+                    <div>
+                      <span className="text-[10px] uppercase tracking-widest text-blue-600">
+                        Pregunta 1
+                      </span>
+                      <h4 className="font-semibold text-black text-[10px] md:text-xl">
+                        ¿Qué tan difícil es trabajar con un escáner de Shining 3D?
+                      </h4>
+                    </div>
+                  </div>
+                </motion.div>
+              </div>
+            </motion.div>
+
+
+            <motion.div
+              initial={{ opacity: 0, y: 60 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+              className="bg-white text-black p-6 md:p-10 flex flex-col items-center"
+            >
+
+              {/* TITULO */}
+              <h2 className="text-xl md:text-4xl font-bold text-center">
+                EXPERIENCIA
+              </h2>
+
+              <div className="relative flex flex-col items-center mt-2">
+                <h3 className="text-xs uppercase tracking-widest text-black font-semibold
+                translate-x-1 md:translate-x-45 mt-2 md:mt-7">
+                  Balsas x Shining 3D
+                </h3>
+
+                <img
+                  src="/Logos/Shining.png"
+                  alt="logo"
+                  className="h-[40px] md:h-[50px] mt-2 md:mt-7 
+                  translate-x-1 md:translate-x-45"
+                />
+              </div>
+
+              {/* CONTENIDO */}
+              <div className="w-full mt-10 flex flex-col md:flex-row items-center justify-center gap-8">
+
+                {/* IMAGEN */}
+                <motion.div
+                  whileHover={{ scale: 1.04 }}
+                  className="relative h-[140px] w-[160px] md:h-[420px] md:w-[280px] 
+                  overflow-hidden rounded-3xl shadow-xl group 
+                  -mt-6 md:-mt-25 translate-y-[-10px] md:translate-y-[-20px]"
                 >
-          <div className="flex items-start gap-4 mb-4">
-            <div className="bg-blue-600 p-4 text-xl text-white">
-              ✏
-            </div>
-            <div>
-              <span className="text-xs uppercase tracking-widest text-blue-600">
-                Dr. Giancarlo
-              </span>
-              <h4 className="text-sm md:text-xl font-semibold mt-1">
-                Especialmente fáciles de manejar
-              </h4>
-              <p className="text-xs text-black leading-relaxed mt-3">
-              Cada producto viene acompañado de lo necesario
-              para trabajar, limpiar o cambiar sus repuestos
-              sin buscar herramientas adicionales.
-              </p>
-            </div>
-          </div>
-        </motion.div>
+                  <Image
+                    src="/Personal/Giancarlo.jpg"
+                    alt="Uso profesional"
+                    fill
+                    className="object-cover transition-transform duration-700 group-hover:scale-110"
+                  />
 
-                </div> 
-        </div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent" />
+                </motion.div>
 
-        <div className="bg-white flex items-center md:text-center text-center justify-center text-black font-bold text-xl md:text-4xl p-6">
-          EXPERIENCIA
-          <h3
-            className="text-xs uppercase tracking-widest text-neutral-500 mb-3 text-center mt-3">
-              Balsas x Shining 3D
-            </h3>
-          <div className="absolute md:left-65 md:top-40 left-20 top-100">
-              <img
-                 src="/Logos/Shining.png"
-                 alt="logo"
-                 className="
-                 w-[auto] 
-                 h-[50px]">
-             </img>
-          </div>
-
-          <div className="relative w-full grid md:grid-cols-2 mt-20">
-                  {/* Imagen */}
-                  <motion.div
-                    initial={{ opacity: 0, y: 40 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.8 }}
-                    whileHover={{ scale: 1.04 }}
-                    className="relative h-[250px] w-[160px] md:h-[420px] md:w-[280px] top-[-80] md:top-[-50] max-w-sm overflow-hidden rounded-3xl shadow-xl group left-25 md:left-170"
-                  >
-                    <Image
-                      src="/Personal/Giancarlo.jpg"
-                      alt="Uso profesional"
-                      fill
-                      className="object-cover transition-transform duration-700 group-hover:scale-110 "
-                    />
-                    {/* Overlay */}
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
-                  </motion.div>
-                  <motion.div
-                  initial={{ opacity: 0, x: 80 }}
+                {/* TARJETA */}
+                <motion.div
+                  initial={{ opacity: 0, x: 60 }}
                   whileInView={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 1.2 }}
-                  className="absolute
-                  md:left-[120]
-                  md:w-[150px]
-                  md:rounded-3xl
-                  md:top-80
-                  md:bg-blue-700
-                  md:w-[380px]
-                  md:h-[2px]
-                  md:p-5
-                  md:shadow-2xl">
-                  </motion.div>
-                  {/* Tarjeta Azul*/}
-                 <motion.div
-                  initial={{ opacity: 0, y: 60 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 1.3 }}
-                  className="
-                    absolute
-                    md:left-[5%]
-                    right-[-13]
-                    top-[175]
-                    md:top-25
-                    rounded-3xl
-                    bg-white
-                    text-black
-                    w-[320px]
-                    md:w-[480px]
-                    w-[380px]
-                    md:h-[200px]
-                    md:p-2
-                    shadow-2xl
-                  "
+                  transition={{ duration: 1 }}
+                  className="w-full max-w-[260px] md:max-w-[420px] bg-white rounded-3xl p-3 md:p-8 shadow-2xl -mt-9"
                 >
-          <div className="flex items-start gap-4 mb-4">
-            <div className="bg-blue-600 p-4 text-xl text-white">
-              🔧
-            </div>
-            <div>
-              <span className="text-xs uppercase tracking-widest text-blue-600">
-                todo incluido
-              </span>
-              <h4 className="text-sm md:text-xl font-semibold mt-1">
-                Incluyen sus propias herramientas
-              </h4>
-              <p className="text-xs text-black leading-relaxed mt-3">
-               Cada producto viene acompañado de lo necesario
-               para trabajar, limpiar o cambiar sus repuestos
-               sin buscar herramientas adicionales.
-              </p>
-            </div>
-          </div>
-        </motion.div>
-             </div>
-        </div>
+                  <div className="flex items-start gap-4 mb-4">
+                    <div className="bg-blue-600 p-4 text-white text-xl">
+                      ✏
+                    </div>
+                    <div>
+                      <span className="text-[10px] uppercase tracking-widest text-blue-600">
+                        Dr. Giancarlo
+                      </span>
+                       <h4 className="text-[9px] md:text-xl font-semibold mt-1">
+                          Especialmente fáciles de manejar
+                        </h4>
+                        <p className="text-[8px] text-black leading-relaxed mt-3">
+                        Cada producto viene acompañado de lo necesario
+                        para trabajar, limpiar o cambiar sus repuestos
+                        sin buscar herramientas adicionales.
+                        </p>
+                    </div>
+                  </div>
+                </motion.div>
+              </div>
+            </motion.div>
+
+
+             <motion.div
+              initial={{ opacity: 0, y: 60 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+              className="bg-white text-black p-6 md:p-10 flex flex-col items-center"
+            >
+
+              {/* TITULO */}
+              <h2 className="text-xl md:text-4xl font-bold text-center">
+                EXPERIENCIA
+              </h2>
+
+              <div className="relative flex flex-col items-center mt-2">
+                <h3 className="text-xs uppercase tracking-widest text-black font-semibold
+                translate-x-1 md:translate-x-45 mt-2 md:mt-7">
+                  Balsas x Shining 3D
+                </h3>
+
+                <img
+                  src="/Logos/Shining.png"
+                  alt="logo"
+                  className="h-[40px] md:h-[50px] mt-2 md:mt-7 
+                  translate-x-1 md:translate-x-45"
+                />
+              </div>
+
+              {/* CONTENIDO */}
+              <div className="w-full mt-10 flex flex-col md:flex-row items-center justify-center gap-8">
+
+                {/* IMAGEN */}
+                <motion.div
+                  whileHover={{ scale: 1.04 }}
+                  className="relative h-[140px] w-[160px] md:h-[420px] md:w-[280px] 
+                  overflow-hidden rounded-3xl shadow-xl group 
+                  -mt-6 md:-mt-25 translate-y-[-10px] md:translate-y-[-20px]"
+                >
+                  <Image
+                    src="/Personal/Giancarlo.jpg"
+                    alt="Uso profesional"
+                    fill
+                    className="object-cover transition-transform duration-700 group-hover:scale-110"
+                  />
+
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent" />
+                </motion.div>
+
+                {/* TARJETA */}
+                <motion.div
+                  initial={{ opacity: 0, x: 60 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  transition={{ duration: 1 }}
+                  className="w-full max-w-[260px] md:max-w-[420px] bg-white rounded-3xl p-2 md:p-8 shadow-2xl -mt-9"
+                >
+                  <div className="flex items-start gap-4 mb-4">
+                    <div className="bg-blue-600 p-4 text-white text-xl">
+                      🔧
+                    </div>
+                    <div>
+                      <span className="text-[8px] uppercase tracking-widest text-blue-600">
+                         Todo incluido
+                      </span>
+                       <h4 className="text-[9px] md:text-xl font-semibold mt-1">
+                          Incluyen sus propias herramientas
+                        </h4>
+                        <p className="text-[8px] text-black leading-relaxed mt-3">
+                        Cada producto viene acompañado de lo necesario
+                        para trabajar, limpiar o cambiar sus repuestos
+                        sin buscar herramientas adicionales.
+                        </p>
+                    </div>
+                  </div>
+                </motion.div>
+              </div>
+            </motion.div>
 
       </HTMLFlipBook>
 
