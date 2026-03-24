@@ -67,7 +67,6 @@ useEffect(() => {
     }
   };
 }, []);
-
   return (
 
     <section id="Emocional" className="bg-blue-700 py-15 flex justify-center items-center">
@@ -84,7 +83,6 @@ useEffect(() => {
               transition={{ duration: 0.8 }}
               className="bg-white text-black p-6 md:p-10 flex flex-col items-center"
             >
-
               {/* TITULO */}
               <h2 className="text-xl md:text-4xl font-bold text-center">
                 EXPERIENCIA
@@ -188,7 +186,6 @@ useEffect(() => {
                     fill
                     className="object-cover transition-transform duration-700 group-hover:scale-110"
                   />
-
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent" />
                 </motion.div>
 
@@ -220,7 +217,6 @@ useEffect(() => {
                 </motion.div>
               </div>
             </motion.div>
-
 
              <motion.div
               initial={{ opacity: 0, y: 60 }}
@@ -296,7 +292,6 @@ useEffect(() => {
                 </motion.div>
               </div>
             </motion.div>
-
       </HTMLFlipBook>
 
     </section>
