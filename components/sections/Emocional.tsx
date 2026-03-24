@@ -32,34 +32,47 @@ export default function Emocional() {
   }, []);
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      const interval = setInterval(() => {
-        if (bookRef.current) {
-          const flip = bookRef.current.pageFlip();
+  let interval: any;
+  let timer: any;
 
-          if (flip) {
-            const current = flip.getCurrentPageIndex();
-            const total = flip.getPageCount();
+  timer = setTimeout(() => {
+    interval = setInterval(() => {
+      if (bookRef.current) {
+        const flip = bookRef.current.pageFlip();
 
-            if (current === total - 1) {
-              flip.flip(0); // vuelve al inicio
-            } else {
-              flip.flipNext();
-            }
+        if (flip) {
+          const current = flip.getCurrentPageIndex();
+          const total = flip.getPageCount();
+
+          if (current === total - 1) {
+            flip.flip(0);
+          } else {
+            flip.flipNext();
           }
         }
-      }, 6530); 
+      }
+    }, 6530);
+  }, 4000);
 
-      return () => clearInterval(interval);
-    }, 4000); 
+  return () => {
+    clearTimeout(timer);
+    clearInterval(interval);
+  };
+}, []);
 
-    return () => clearTimeout(timer);
-  }, []);
+useEffect(() => {
+  return () => {
+    if (bookRef.current) {
+      bookRef.current = null;
+    }
+  };
+}, []);
 
   return (
 
     <section id="Emocional" className="bg-blue-700 py-15 flex justify-center items-center">
       <HTMLFlipBook
+        key={size.width}
         ref={bookRef}
         width={size.width}
         height={size.height}
