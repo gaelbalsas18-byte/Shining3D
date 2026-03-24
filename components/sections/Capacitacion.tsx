@@ -140,7 +140,7 @@ export default function Capacitacion() {
                       className="object-cover "
                     />
                     {/*Sombra de la imagen*/}
-                    <div className="absolute inset-0 "/>
+                    <div className="absolute bottom-0 w-full h-1/2  bg-gradient-to-t from-blue-800/90  via-blue-600/35 to-transparent"/>
                     <div className="relative p-6 text-white mt-52">
                       <h3 className="text-xl font-bold mb-2">
                         {persona.nombre}
@@ -302,7 +302,7 @@ export default function Capacitacion() {
           </section>
 
       {/* ===== Pied de pagina ===== */}
-        <footer className="w-full bg-blue-700 py-5 mt-20">
+        <footer className="w-full bg-gradient-to-r from-blue-400 to-blue-800 py-5 mt-20">
           <div className="max-w-6xl mx-auto px-6">
 
             <div className="flex justify-center items-center gap-8 mb-6">

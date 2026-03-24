@@ -82,8 +82,8 @@ export default function Clinica() {
          loop
          muted
          playsInline/>
+
             <div className="absolute inset-0 bg-gradient-to-l from-blue-700 via-blue-800/30 to-transparent">
-              
               <div className="absolute top-5.5 left-72 md:top-10 md:left-260 z-20">
               <motion.img
               initial={{ opacity: 0, y: 80 }}
@@ -104,7 +104,7 @@ export default function Clinica() {
               alt="Balsas"
               className="h-12 md:h-12   lg:h-17  w-auto"
               />
-              
+
            </div> 
     
               <div className="relative z-10 h-full flex items-center justify-center md:justify-end px-6 md:px-12 lg:px-20">
@@ -163,7 +163,6 @@ export default function Clinica() {
                 transition={{ duration: 0.8}}
                 className="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm text-gray-700 justify-items-center"
               >
-
                 <div className="flex items-center gap-2 justify-center text-xl text-black">
                   <span className="text-blue-600 text-2xl">✔</span>
                   Tecnología avanzada
@@ -178,12 +177,11 @@ export default function Clinica() {
                   <span className="text-blue-600 text-2xl">✔</span>
                   Soporte especializado
                 </div>
-
               </motion.div>
             </div>
           </div>
         </section>
-
+        
                 {/* TARJETAS + PANEL DERECHO */}
           <section className="py-16 px-6 md:px-12 lg:px-20 bg-white ">
             <motion.h1

@@ -11,7 +11,7 @@ export default function Hero () {
         <section className="relative w-full h-[100vh] lg:h:screen overflow-hidden">
           {/*Video*/}
          <video
-         className="absolute inset-0 w-full h-full object-cover brightness-110"
+         className="absolute inset-0 w-full h-full object-cover brightness-130"
          src="/Web/shining 3d.mp4"
          autoPlay
          loop
@@ -19,7 +19,7 @@ export default function Hero () {
          playsInline/>
           ))
           {/*Degradado azul*/}
-          <div className="absolute inset-0 bg-gradient-to-l from-blue-700 via-blue-800/30 to-transparent"/>
+          <div className="absolute inset-0 bg-gradient-to-l from-blue-800 via-blue-800/30 to-transparent"/>
           {/*Contenido*/}
          <div className="relative z-10 h-full flex flex-col justify-between pl-[5%] pr-[2%] lg:pl-[10%] lg:pr-[5%] py-[5%]">
             {/* 🔹 LOGOS (arriba derecha, misma intención visual) */}
@@ -60,7 +60,7 @@ export default function Hero () {
                   initial={{ opacity: 0, y: 80 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 1 }}
-                  className="text-[clamp(0.9rem,1.5vw,1.25rem)] mt-[3%]"
+                  className="text-[clamp(0.8rem,3.5vw,1rem)] md:text-[clamp(0.9rem,1.5vw,1.25rem)] mt-[4%] md:mt-[3%]"
                 >
                   Lleve tu clínica al siguiente nivel con tecnología digital.
                   <br />
