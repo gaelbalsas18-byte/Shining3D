@@ -72,7 +72,7 @@ useEffect(() => {
 
     <section id="Emocional" className="bg-blue-700 py-15 flex justify-center items-center">
       <HTMLFlipBook
-        key={size.width}
+        key={`${size.width}-${size.height}`}
         ref={bookRef}
         width={size.width}
         height={size.height}
