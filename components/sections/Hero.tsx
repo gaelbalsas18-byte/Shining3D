@@ -60,7 +60,7 @@ export default function Hero () {
                   initial={{ opacity: 0, y: 80 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 1 }}
-                  className="text-[clamp(0.8rem,3.5vw,1rem)] md:text-[clamp(0.9rem,1.5vw,1.25rem)] mt-[4%] md:mt-[3%]"
+                  className="text-[clamp(0.8rem,3.5vw,1rem)] md:text-[clamp(0.9rem,1.5vw,1.25rem)] mt-[-4%] md:mt-[3%]"
                 >
                   Lleve tu clínica al siguiente nivel con tecnología digital.
                   <br />
