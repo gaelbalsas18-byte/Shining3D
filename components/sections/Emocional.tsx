@@ -16,7 +16,7 @@ export default function Emocional() {
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth < 640) {
-      setSize({ width: 350, height: 450 });  
+      setSize({ width: 390, height: 480 });  
 
       } else if (window.innerWidth < 1024) {
         
@@ -78,7 +78,6 @@ useEffect(() => {
         height={size.height}
         className="shadow-2xl"
       >
-
         <motion.div
               initial={{ opacity: 0, y: 60 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -96,7 +95,6 @@ useEffect(() => {
                 translate-x-1 md:translate-x-45 mt-2 md:mt-7">
                   Balsas x Shining 3D
                 </h3>
-
                 <img
                   src="/Logos/Shining.png"
                   alt="logo"
@@ -149,13 +147,11 @@ useEffect(() => {
               </div>
             </motion.div>
 
-
             <motion.div
               initial={{ opacity: 0, y: 60 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
-              className="bg-white text-black p-6 md:p-10 flex flex-col items-center"
-            >
+              className="bg-white text-black p-6 md:p-10 flex flex-col items-center">
 
               {/* TITULO */}
               <h2 className="text-xl md:text-4xl font-bold text-center">
