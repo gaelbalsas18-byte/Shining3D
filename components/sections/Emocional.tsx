@@ -201,7 +201,7 @@ useEffect(() => {
                   initial={{ opacity: 0, x: 60 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   transition={{ duration: 1 }}
-                  className="w-full max-w-[260px] md:max-w-[420px] bg-white rounded-3xl p-3 md:p-8 shadow-2xl -mt-9"
+                  className="w-full max-w-[260px] md:max-w-[420px] bg-white rounded-3xl p-1 md:p-8 shadow-2xl -mt-9"
                 >
                   <div className="flex items-start gap-4 mb-4">
                     <div className="bg-blue-600 p-4 text-white text-xl">
