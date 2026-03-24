@@ -131,7 +131,7 @@ useEffect(() => {
                   className="w-full max-w-[300px] md:max-w-[420px] bg-white rounded-3xl p-6 md:p-8 shadow-2xl -mt-10"
                 >
                   <div className="flex items-start gap-4 mb-4">
-                    <div className="bg-blue-600 p-4 text-white text-xl">
+                    <div className="bg-blue-600 p-4 text-white text-xl rounded-2xl">
                       👁
                     </div>
                     <div>
@@ -200,7 +200,7 @@ useEffect(() => {
                   className="w-full max-w-[260px] md:max-w-[420px] bg-white rounded-3xl p-1 md:p-8 shadow-2xl -mt-9"
                 >
                   <div className="flex items-start gap-4 mb-4">
-                    <div className="bg-blue-600 p-4 text-white text-xl">
+                    <div className="bg-blue-600 p-4 text-white text-xl rounded-2xl">
                       ✏
                     </div>
                     <div>
@@ -276,7 +276,7 @@ useEffect(() => {
                   className="w-full max-w-[260px] md:max-w-[420px] bg-white rounded-3xl p-2 md:p-8 shadow-2xl -mt-9"
                 >
                   <div className="flex items-start gap-4 mb-4">
-                    <div className="bg-blue-600 p-4 text-white text-xl">
+                    <div className="bg-blue-600 p-4 text-white text-xl rounded-2xl">
                       🔧
                     </div>
                     <div>
