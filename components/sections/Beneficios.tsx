@@ -38,10 +38,10 @@ export default function Beneficios() {
              <img
                   src="/Productos/ClinicaS/Aoralscan.jpg"
                   alt="Clínica Dental"
-                  className="absolute inset-0 w-full h-full object-contain"
+                  className="absolute inset-0 w-full h-full object-fill object-center"
                />
                 {/* Overlay dinámico */}
-                <div className="absolute inset-0 group-hover:bg-black/70 transition-all duration-500" />
+                <div className="absolute inset-0 group-hover:bg-black/70 transition-all duration-500"/>
 
                 <div className="relative z-10 flex items-center justify-center h-full">
                   <h2 className="text-transparent group-hover:text-white text-3xl md:text-4xl lg:text-3xl font-bold transition-colors duration-500">
@@ -63,7 +63,7 @@ export default function Beneficios() {
                 <img
                   src="/Productos/LaboratorioS/DS EX H.jpg"
                   alt="LaboratorioS"
-                  className="absolute inset-0 w-full h-full object-contain"
+                  className="absolute inset-0 w-full h-full object-fill object-center"
                 />
 
                 {/* Overlay dinámico */}
@@ -88,7 +88,7 @@ export default function Beneficios() {
                 <img
                   src="/Productos/Impresoras/Acuafast L4D.jpg"
                   alt="Impresora"
-                  className="absolute inset-0 w-full h-full object-contain"
+                  className="absolute inset-0 w-full h-full object-fill object-center"
                 />
 
                 {/* Overlay dinámico */}
