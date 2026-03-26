@@ -6,7 +6,7 @@ export const personas = [
       descripcion: "Gerente Comercial",
       correo: "direcciongeneral@balsasdental.com",
       telefono: "5554076025",
-      imagen: "/Personal/Fer.jpg",
+      imagen: "/Personal/Termi/Fer.jpg",
     },
 
     {
@@ -16,7 +16,7 @@ export const personas = [
       descripcion: "Asesor Comercial",
       correo: "contacto@drtrading.mx",
       telefono: "5549363462",
-      imagen: "/Personal/Giancarlo.jpg",
+      imagen: "/Personal/Termi/Giancarlo.jpg",
     },
     
     {
