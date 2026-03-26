@@ -38,7 +38,7 @@ export default function Beneficios() {
              <img
                   src="/Productos/ClinicaS/Aoralscan.jpg"
                   alt="Clínica Dental"
-                  className="absolute inset-0 w-full h-full object-cover"
+                  className="absolute inset-0 w-full h-full object-contain"
                />
                 {/* Overlay dinámico */}
                 <div className="absolute inset-0 group-hover:bg-black/70 transition-all duration-500" />
@@ -63,7 +63,7 @@ export default function Beneficios() {
                 <img
                   src="/Productos/LaboratorioS/DS EX H.jpg"
                   alt="LaboratorioS"
-                  className="absolute inset-0 w-full h-full object-cover"
+                  className="absolute inset-0 w-full h-full object-contain"
                 />
 
                 {/* Overlay dinámico */}
