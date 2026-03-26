@@ -88,7 +88,7 @@ export default function Beneficios() {
                 <img
                   src="/Productos/Impresoras/Acuafast L4D.jpg"
                   alt="Impresora"
-                  className="absolute inset-0 w-full h-full object-cover "
+                  className="absolute inset-0 w-full h-full object-contain"
                 />
 
                 {/* Overlay dinámico */}
