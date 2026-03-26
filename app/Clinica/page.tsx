@@ -27,7 +27,7 @@ const productos = [
                   • Precisión superior y mayor profundidad.
                   • Aoralscan 3 combina un diseño moderno con velocidad ultrarrápida, alta precisión y procesamiento avanzado con IA. 
                   • Su punta estándar ofrece un campo de visión de 16 mm × 12 mm × 22 mm, logrando capturas más rápidas y exactas.`,
-    imagen: "/Productos/ClinicaS/Aoralscan.jpg",
+    imagen: "/Productos/ClinicaS/AoralscaN1.jpg",
   },
 
   {

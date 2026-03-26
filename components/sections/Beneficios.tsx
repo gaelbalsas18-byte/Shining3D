@@ -36,7 +36,7 @@ export default function Beneficios() {
                 viewport={{ once: true }}
                 className="relative w-full h-72 md:h-96 lg:h-[420px] xl:h-[500px] rounded-3xl overflow-hidden cursor-pointer transition-all duration-500 group-hover:scale-105 border-3 border-black">
              <img
-                  src="/Productos/ClinicaS/Aoralscan.jpg"
+                  src="/Productos/ClinicaS/AoralscaN1.jpg"
                   alt="Clínica Dental"
                   className="absolute inset-0 w-full h-full object-fill object-center"
                />

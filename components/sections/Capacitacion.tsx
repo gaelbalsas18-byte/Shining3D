@@ -131,13 +131,13 @@ export default function Capacitacion() {
                   initial={{ opacity: 0, y: 40 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.6, delay: i * 0.1 }}
-                  className="relative rounded-3xl shadow-xl overflow-hidden h-107 w-[336px]"
+                  className="relative rounded-3xl shadow-xl overflow-hidden h-107 w-[336px] brightness-103"
                 >
                     <Image
                       src={persona.imagen || "/placeholder.jpg"}
                       alt={persona.nombre}
                       fill
-                      className="object-cover "
+                      className="object-cover"
                     />
                     {/*Sombra de la imagen*/}
                     <div className="absolute bottom-0 w-full h-1/2  bg-gradient-to-t from-blue-800/90  via-blue-600/35 to-transparent"/>
