@@ -36,10 +36,10 @@ export default function Beneficios() {
                 viewport={{ once: true }}
                 className="relative w-full h-72 md:h-96 lg:h-[420px] xl:h-[500px] rounded-3xl overflow-hidden cursor-pointer transition-all duration-500 group-hover:scale-105 border-3 border-black">
              <img
-                  src="/Productos/ClinicaS/Aoralscan.jpg"
-                  alt="Clínica Dental"
-                  className="absolute inset-0 w-full h-full object-cover"
-               />
+                src="/Productos/ClinicaS/Aoralscan.jpg"
+                alt="Clínica Dental"
+                className="absolute inset-0 w-full h-full object-cover object-[50%_30%]"
+              />
                 {/* Overlay dinámico */}
                 <div className="absolute inset-0 group-hover:bg-black/70 transition-all duration-500" />
 
