@@ -394,7 +394,7 @@ useEffect(() => {
                   -mt-6 md:-mt-25 translate-y-[-10px] md:translate-y-[-20px]"
                 >
                   <Image
-                    src="/Experiencias/exp6.jpg"
+                    src="/Experiencias/exp6.jPG"
                     alt="Uso profesiona5"
                     fill
                     className="object-cover transition-transform duration-700 group-hover:scale-110"
