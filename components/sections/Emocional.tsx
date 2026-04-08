@@ -112,7 +112,7 @@ useEffect(() => {
                   -mt-6 md:-mt-25 translate-y-[-10px] md:translate-y-[-20px]"
                 >
                   <Image
-                    src="/Personal/Giancarlo.jpg"
+                    src="/Experiencias/exp1.jpg"
                     alt="Uso profesional"
                     fill
                     className="object-cover transition-transform duration-700 group-hover:scale-110"
@@ -145,6 +145,147 @@ useEffect(() => {
               </div>
             </motion.div>
 
+            {/*Tarjeta 2*/}
+            <motion.div
+              initial={{ opacity: 0, y: 60 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+              className="bg-white text-black p-6 md:p-10 flex flex-col items-center"
+            >
+              {/* TITULO */}
+              <h2 className="text-xl md:text-4xl font-bold text-center">
+                EXPERIENCIA
+              </h2>
+
+              <div className="relative flex flex-col items-center mt-2">
+                <h3 className="text-xs uppercase tracking-widest text-black font-semibold
+                translate-x-1 md:translate-x-45 mt-2 md:mt-7">
+                  Balsas x Shining 3D
+                </h3>
+                <img
+                  src="/Logos/Shining.png"
+                  alt="logo"
+                  className="h-[40px] md:h-[50px] mt-2 md:mt-7 
+                  translate-x-1 md:translate-x-45"
+                />
+              </div>
+
+              {/* CONTENIDO */}
+              <div className="w-full mt-10 flex flex-col md:flex-row items-center justify-center gap-8">
+
+                {/* IMAGEN */}
+                <motion.div
+                  whileHover={{ scale: 1.04 }}
+                  className="relative h-[140px] w-[160px] md:h-[420px] md:w-[280px] 
+                  overflow-hidden rounded-3xl shadow-xl group 
+                  -mt-6 md:-mt-25 translate-y-[-10px] md:translate-y-[-20px]"
+                >
+                  <Image
+                    src="/Experiencias/exp2.jpg"
+                    alt="Uso profesional"
+                    fill
+                    className="object-cover transition-transform duration-700 group-hover:scale-110"
+                  />
+
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent" />
+                </motion.div>
+
+                {/* TARJETA */}
+                <motion.div
+                  initial={{ opacity: 0, x: 60 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  transition={{ duration: 1 }}
+                  className="w-full max-w-[300px] md:max-w-[420px] bg-white rounded-3xl p-6 md:p-8 shadow-2xl -mt-10"
+                >
+                  <div className="flex items-start gap-4 mb-4">
+                    <div className="bg-blue-600 p-4 text-white text-xl rounded-2xl">
+                      👁
+                    </div>
+                    <div>
+                      <span className="font-semibold text-[10px] uppercase tracking-widest text-blue-600">
+                        Dr. Jair Facio
+                      </span>
+                      <h4 className="text-black text-[10px] md:text-sm">
+                        La experiencia de uso es cómoda y práctica, ya que los escáneres están diseñados para simplificar cada paso. 
+                        Esto permite al profesional enfocarse más en el paciente y menos en la complejidad del equipo.
+                      </h4>
+                    </div>
+                  </div>
+                </motion.div>
+              </div>
+            </motion.div>
+
+            {/*Tarjeta 3*/}
+             <motion.div
+              initial={{ opacity: 0, y: 60 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+              className="bg-white text-black p-6 md:p-10 flex flex-col items-center"
+            >
+              {/* TITULO */}
+              <h2 className="text-xl md:text-4xl font-bold text-center">
+                EXPERIENCIA
+              </h2>
+
+              <div className="relative flex flex-col items-center mt-2">
+                <h3 className="text-xs uppercase tracking-widest text-black font-semibold
+                translate-x-1 md:translate-x-45 mt-2 md:mt-7">
+                  Balsas x Shining 3D
+                </h3>
+                <img
+                  src="/Logos/Shining.png"
+                  alt="logo"
+                  className="h-[40px] md:h-[50px] mt-2 md:mt-7 
+                  translate-x-1 md:translate-x-45"
+                />
+              </div>
+
+              {/* CONTENIDO */}
+              <div className="w-full mt-10 flex flex-col md:flex-row items-center justify-center gap-8">
+
+                {/* IMAGEN */}
+                <motion.div
+                  whileHover={{ scale: 1.04 }}
+                  className="relative h-[140px] w-[160px] md:h-[420px] md:w-[280px] 
+                  overflow-hidden rounded-3xl shadow-xl group 
+                  -mt-6 md:-mt-25 translate-y-[-10px] md:translate-y-[-20px]"
+                >
+                  <Image
+                    src="/Experiencias/exp4.jpg"
+                    alt="Uso profesional"
+                    fill
+                    className="object-cover transition-transform duration-700 group-hover:scale-110"
+                  />
+
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent" />
+                </motion.div>
+
+                {/* TARJETA */}
+                <motion.div
+                  initial={{ opacity: 0, x: 60 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  transition={{ duration: 1 }}
+                  className="w-full max-w-[300px] md:max-w-[420px] bg-white rounded-3xl p-6 md:p-8 shadow-2xl -mt-10"
+                >
+                  <div className="flex items-start gap-4 mb-4">
+                    <div className="bg-blue-600 p-4 text-white text-xl rounded-2xl">
+                      👁
+                    </div>
+                    <div>
+                      <span className="font-semibold text-[10px] uppercase tracking-widest text-blue-600">
+                        NORBAC
+                      </span>
+                      <h4 className="text-black text-[10px] md:text-sm">
+                        Gracias a su tecnología avanzada, los escáneres ofrecen una curva de aprendizaje accesible. 
+                        En pocos días, el usuario puede dominar las funciones básicas y realizar escaneos eficientes.
+                      </h4>
+                    </div>
+                  </div>
+                </motion.div>
+              </div>
+            </motion.div>
+
+            {/*Tarjeta 4*/}
             <motion.div
               initial={{ opacity: 0, y: 60 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -181,7 +322,7 @@ useEffect(() => {
                   -mt-6 md:-mt-25 translate-y-[-10px] md:translate-y-[-20px]"
                 >
                   <Image
-                    src="/Personal/Giancarlo.jpg"
+                    src="/Experiencias/exp5.jpg"
                     alt="Uso profesional"
                     fill
                     className="object-cover transition-transform duration-700 group-hover:scale-110"
@@ -201,13 +342,10 @@ useEffect(() => {
                       ✏
                     </div>
                     <div>
-                      <span className="text-[10px] uppercase tracking-widest text-blue-600">
-                        Dr. Giancarlo
+                      <span className="font-semibold text-[10px] uppercase tracking-widest text-blue-600">
+                        Dr. Ottmar
                       </span>
-                       <h4 className="text-[9px] md:text-xl font-semibold mt-1">
-                          Especialmente fáciles de manejar
-                        </h4>
-                        <p className="text-[8px] text-black leading-relaxed mt-3">
+                        <p className="text-black text-[10px] md:text-sm">
                         Cada producto viene acompañado de lo necesario
                         para trabajar, limpiar o cambiar sus repuestos
                         sin buscar herramientas adicionales.
@@ -218,6 +356,7 @@ useEffect(() => {
               </div>
             </motion.div>
 
+            {/*Tarjeta 5*/}
              <motion.div
               initial={{ opacity: 0, y: 60 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -255,8 +394,8 @@ useEffect(() => {
                   -mt-6 md:-mt-25 translate-y-[-10px] md:translate-y-[-20px]"
                 >
                   <Image
-                    src="/Personal/Giancarlo.jpg"
-                    alt="Uso profesional"
+                    src="/Experiencias/exp6.jpg"
+                    alt="Uso profesiona5"
                     fill
                     className="object-cover transition-transform duration-700 group-hover:scale-110"
                   />
@@ -276,16 +415,12 @@ useEffect(() => {
                       🔧
                     </div>
                     <div>
-                      <span className="text-[8px] uppercase tracking-widest text-blue-600">
+                      <span className="font-semibold text-[10px] uppercase tracking-widest text-blue-600">
                          Todo incluido
                       </span>
-                       <h4 className="text-[9px] md:text-xl font-semibold mt-1">
-                          Incluyen sus propias herramientas
-                        </h4>
-                        <p className="text-[8px] text-black leading-relaxed mt-3">
-                        Cada producto viene acompañado de lo necesario
-                        para trabajar, limpiar o cambiar sus repuestos
-                        sin buscar herramientas adicionales.
+                        <p className="text-black text-[10px] md:text-sm">
+                       El sistema digital facilita la transición desde métodos tradicionales, haciendo que el proceso sea más limpio, rápido y preciso. 
+                       Esto mejora significativamente la experiencia tanto del especialista como del paciente.
                         </p>
                     </div>
                   </div>
@@ -293,7 +428,6 @@ useEffect(() => {
               </div>
             </motion.div>
       </HTMLFlipBook>
-
     </section>
   );
 }
