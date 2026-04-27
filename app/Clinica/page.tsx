@@ -58,6 +58,18 @@ const productos = [
 
   {
     id: 4,
+    nombre: "Aoralsacan elf",
+    descripcion: `• Diseño pluma.
+                  • Conectividad Optimizada.
+                  • Opciones de puntas adaptables.
+                  • Escaneo y análisis de placas.
+                  • Comparación de informes inteligentes.
+                  • Compartición de informes móviles.`,
+    imagen: "/Productos/ClinicaS/elf.jpg",
+  },
+
+   {
+    id: 5,
     nombre: "Meti Smile",
     descripcion: `• Análisis integral y precisión digital avanzada.
                   • Permite registrar el movimiento mandibular.
