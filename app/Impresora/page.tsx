@@ -105,7 +105,7 @@ export default function Impresora() {
               className="h-12 md:h-12   lg:h-17  w-auto"
               />
            </div>
-    
+
           <div className="relative z-10 h-full flex items-center justify-center md:justify-end px-6 md:px-12 lg:px-20">
             <div className="text-white max-w-xl text-center md:text-right">
               <motion.h1
@@ -319,6 +319,22 @@ export default function Impresora() {
                       </svg>
                       "Cotizar"
                     </a>
+                    <a 
+                    href=""
+                    className="mt-5
+                    w-full
+                    inline-flex
+                    items-center
+                    justify-center
+                    gap-3
+                    bg-blue-800
+                    hover:bg-blue-600
+                    text-white
+                    font-semibold
+                    py-3
+                    rounded-xl
+                    shadow-md
+                    transition">🖼️ "Flayer"</a>
                 </motion.div>
               )}
             </AnimatePresence>
