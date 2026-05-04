@@ -28,6 +28,7 @@ const productos = [
                   • Aoralscan 3 combina un diseño moderno con velocidad ultrarrápida, alta precisión y procesamiento avanzado con IA. 
                   • Su punta estándar ofrece un campo de visión de 16 mm × 12 mm × 22 mm, logrando capturas más rápidas y exactas.`,
     imagen: "/Productos/ClinicaS/AoralscaN1.jpg",
+    pdf: "/flayer/Aoralscan3.pdf",
   },
 
   {
@@ -327,22 +328,16 @@ export default function Clinica() {
                       </svg>
                       "Cotizar"
                     </a>
-                    <a 
-                    href=""
-                    className="mt-5
-                    w-full
-                    inline-flex
-                    items-center
-                    justify-center
-                    gap-3
-                    bg-blue-800
-                    hover:bg-blue-600
-                    text-white
-                    font-semibold
-                    py-3
-                    rounded-xl
-                    shadow-md
-                    transition">🖼️ "Flayer"</a>
+                    {productoActivo?.pdf && (
+                        <a 
+                          href={productoActivo.pdf}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="mt-5 w-full inline-flex items-center justify-center gap-3 bg-blue-800 hover:bg-blue-600 text-white font-semibold py-3 rounded-xl shadow-md transition"
+                        >
+                          🖼️ Flayer
+                        </a>
+                    )}
                     </motion.div>
                   )}
                 </AnimatePresence>
