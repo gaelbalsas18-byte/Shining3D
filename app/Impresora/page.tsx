@@ -319,22 +319,6 @@ export default function Impresora() {
                       </svg>
                       "Cotizar"
                     </a>
-                    <a 
-                    href=""
-                    className="mt-5
-                    w-full
-                    inline-flex
-                    items-center
-                    justify-center
-                    gap-3
-                    bg-blue-800
-                    hover:bg-blue-600
-                    text-white
-                    font-semibold
-                    py-3
-                    rounded-xl
-                    shadow-md
-                    transition">🖼️ "Flayer"</a>
                 </motion.div>
               )}
             </AnimatePresence>

@@ -320,7 +320,7 @@ export default function Laboratorio() {
                           rel="noopener noreferrer"
                           className="mt-5 w-full inline-flex items-center justify-center gap-3 bg-blue-800 hover:bg-blue-600 text-white font-semibold py-3 rounded-xl shadow-md transition"
                         >
-                          🖼️ Flayer
+                        🖼️ Ficha Tecnica.
                         </a>
                     )}
                     </motion.div>
